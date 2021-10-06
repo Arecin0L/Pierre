@@ -1,2 +1,14 @@
-
+header
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #403e3e;
+    height: 20vh;
+}
+.l
+{
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
 /*# sourceMappingURL=index.css.map *//*# sourceMappingURL=index.css.map */
