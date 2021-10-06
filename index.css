@@ -15,5 +15,7 @@ header
 .barre{
     border-radius: 15px;
     width: 15vw;
-    
+}
+.search{
+    border-radius: 50px;
 }
