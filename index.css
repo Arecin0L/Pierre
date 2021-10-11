@@ -3,6 +3,8 @@
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,16 +13,27 @@ header {
 }
 
 .lienhead {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 70vw;
 }
 
 .truc {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -66,6 +79,10 @@ i, .si, .p, .l, .ap, .barre::after {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .barre, .barre:hover {
   border: 2px dotted black;
 }
@@ -83,5 +100,6 @@ i {
 }
 
 .tnp, .n, .pr {
-  color: cornflowerblue;
-}/*# sourceMappingURL=index.css.map */
+  color: #cfa03a;
+}
+/*# sourceMappingURL=index.css.map */

@@ -54,6 +54,9 @@ h1{
 i, .si, .p, .l, .ap, .barre::after {
     @include deco;
 }
+a{
+    @include deco
+}
 .barre, .barre:hover{
     @include border;
 }
@@ -69,6 +72,6 @@ i{
 
   }
   .tnp, .n, .pr{
-    color: cornflowerblue;
+    color: $sec_color;
   }
   
