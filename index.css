@@ -10,7 +10,7 @@ header {
   height: 20vh;
 }
 
-.linehead {
+.lienhead {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,20 +30,11 @@ header {
 
 .barre {
   border-radius: 10px 0 0 10px;
-  border: 2px dashed black;
   background: none;
   font-size: 25px;
   height: 5vh;
   width: 15vw;
   float: left;
-}
-
-.barre::after {
-  text-decoration: none;
-}
-
-.barre:hover {
-  border: 2px solid black;
 }
 
 div.search button {
@@ -55,21 +46,30 @@ div.search button {
   background: none;
 }
 
-i {
-  text-decoration: none;
+.si, .p, .l, .ap {
   color: #000;
-}
-
-.si, .p, .l {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.623);
-  font-size: 20px;
-  box-shadow: 0 0 20px 0;
-  width: 10vw;
+  font-size: 28px;
+  width: 8vw;
   text-align: center;
   border-radius: 15px;
 }
 
+.si, .ap {
+  width: 13vw;
+}
+
 h1 {
   font-size: 30px;
+}
+
+i, .si, .p, .l, .ap, .barre::after {
+  text-decoration: none;
+}
+
+.barre, .barre:hover {
+  border: 2px dotted black;
+}
+
+i {
+  color: #b48787;
 }/*# sourceMappingURL=index.css.map */

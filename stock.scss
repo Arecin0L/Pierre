@@ -1,8 +1,15 @@
 //Variable
 $first_color: #394e75af;
+$sec_color: rgb(180, 135, 135);
 
 @mixin position {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+@mixin deco {
+    text-decoration: none;
+}
+@mixin border {
+    border: 2px dotted black;
 }
