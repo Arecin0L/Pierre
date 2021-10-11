@@ -6,7 +6,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #394e75af;
+  background: #394e757e;
   height: 20vh;
 }
 
@@ -71,17 +71,5 @@ i, .si, .p, .l, .ap, .barre::after {
 }
 
 i {
-  color: #b48787;
-}
-.nav{
-  display: flex;
-  justify-content: space-around;
-  align-items:center;
-  font-size: 25px;
-  border-bottom:2px solid #f1975f;
-}
-
-
-
-
-/*# sourceMappingURL=index.css.map */
+  color: #cfa03a;
+}/*# sourceMappingURL=index.css.map */
