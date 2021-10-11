@@ -1,0 +1,63 @@
+@import './stock.scss';
+
+*{
+    margin: 0;
+}
+header{
+    @include position;
+    background:  $first_color;
+    height: 20vh;
+}
+.linehead{
+    @include position;
+    width: 70vw;
+}
+.truc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
+.barre{
+    border-radius: 10px 0 0 10px;
+    border: 2px dashed black;
+    background: none;
+    font-size: 25px;
+    height: 5vh;
+    width: 15vw;
+    float: left;
+}
+.barre::after{
+    text-decoration: none;
+}
+.barre:hover{
+    border: 2px solid black;
+}
+div.search button{
+    height: 5vh;
+    float: left;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+i{
+    text-decoration: none;
+    color: #000;
+}
+.si, .p, .l{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 20px;
+    box-shadow: 0 0 20px 0;
+    width: 10vw;
+    text-align: center;
+    border-radius: 15px;
+}
+h1{
+    font-size: 30px;
+}
+

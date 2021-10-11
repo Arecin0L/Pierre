@@ -1,0 +1,8 @@
+//Variable
+$first_color: #394e75af;
+
+@mixin position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
