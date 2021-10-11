@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #394e757e;
+  background: linear-gradient(15deg, #394e757e, white);
   height: 20vh;
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 div.search button {
-  height: 5vh;
+  height: 6vh;
   float: left;
   border-radius: 0 10px 10px 0;
   border: none;
