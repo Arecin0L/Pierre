@@ -72,4 +72,16 @@ i, .si, .p, .l, .ap, .barre::after {
 
 i {
   color: #b48787;
-}/*# sourceMappingURL=index.css.map */
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  font-size: 25px;
+  border-bottom:2px solid #f1975f;
+}
+
+
+
+
+/*# sourceMappingURL=index.css.map */
