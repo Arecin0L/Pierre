@@ -6,7 +6,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #394e757e;
+  background: linear-gradient(15deg, #394e757e, white);
   height: 20vh;
 }
 
@@ -62,7 +62,7 @@ h1 {
   font-size: 30px;
 }
 
-i, .si, .p, .l, .ap, .tnp, .n, .pr, .barre::after {
+i, .si, .p, .l, .ap, .barre::after {
   text-decoration: none;
 }
 
@@ -74,9 +74,14 @@ i {
   color: #cfa03a;
 }
 
-  
-  
-  
-  
-  
-  /*# sourceMappingURL=index.css.map */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  border-bottom: 2px solid #f1975f;
+}
+
+.tnp, .n, .pr {
+  color: cornflowerblue;
+}/*# sourceMappingURL=index.css.map */

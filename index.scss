@@ -5,8 +5,9 @@
 }
 header{
     @include position;
-    background:  $first_color;
+    background:  linear-gradient(15deg, $first_color, white);
     height: 20vh;
+
 }
 .lienhead{
     @include position;
