@@ -100,24 +100,27 @@ i {
 .menu {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: grey;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border: 2px solid black;
 }
 
 .menu a {
-  color: grey;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .menu a:hover {
-  background-color: hotpink;
+  background-color: #f1975f;
 }
 
 .menuderoulant:hover .menu {
   display: block;
+}
+
+.tnp {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
