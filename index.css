@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(15deg, #394e757e, white);
+  background: linear-gradient(120deg, #394e757e, white);
   height: 20vh;
 }
 
