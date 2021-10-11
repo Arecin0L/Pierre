@@ -59,3 +59,15 @@ i, .si, .p, .l, .ap, .barre::after {
 i{
     color: $sec_color;
 }
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 25px;
+    border-bottom:2px solid #f1975f;
+
+  }
+  .tnp, .n, .pr{
+    color: cornflowerblue;
+  }
+  

@@ -62,7 +62,7 @@ h1 {
   font-size: 30px;
 }
 
-i, .si, .p, .l, .ap, .barre::after {
+i, .si, .p, .l, .ap, .tnp, .n, .pr, .barre::after {
   text-decoration: none;
 }
 
@@ -73,10 +73,10 @@ i, .si, .p, .l, .ap, .barre::after {
 i {
   color: #cfa03a;
 }
-.nav{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    font-size: 25px;
-    border-bottom:2px solid #f1975f;
-  }/*# sourceMappingURL=index.css.map */
+
+  
+  
+  
+  
+  
+  /*# sourceMappingURL=index.css.map */
