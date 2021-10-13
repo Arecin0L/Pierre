@@ -3,9 +3,11 @@
 *{
     margin: 0;
 }
+body{
+    background: rgba(255, 255, 255, 0.89);
+}
 header{
     @include position;
-    background:  linear-gradient(120deg, $first_color, white);
     height: 20vh;
 
 }
@@ -39,9 +41,9 @@ div.search button{
     background: none;
 }
 .si, .p, .l, .ap{
-    color: #000;
+    color: $sec_color;
     font-size: 28px;
-    width: 8vw;
+    width: 10vw;
     text-align: center;
     border-radius: 15px;
 }
@@ -50,30 +52,37 @@ div.search button{
 }
 h1{
     font-size: 30px;
+    color: $sec_color;
 }
 i, .si, .p, .l, .ap, .barre::after {
     @include deco;
 }
 a{
-    @include deco
+    @include deco;
 }
 .barre, .barre:hover{
     @include border;
 }
 i{
-    color: $sec_color;
+    color: $first_color;
 }
 .nav{
     display: flex;
     justify-content: space-around;
     align-items:center;
     font-size: 25px;
-    border-bottom:2px solid #f1975f;
+    border-bottom: 2px solid $sec_color;
    
   }
   .tnp, .n, .pr{
-    color: $sec_color;
+    color: $first_color;
   }
+.spal{
+    @include position;
+    width: 35vw;
+}
+
+
   /*menu déroulant*/
 .menuderoulant{
     position: relative;
@@ -103,3 +112,26 @@ i{
 .tnp{
     cursor: pointer;
 }
+
+.dispimg{
+    @include position;
+}
+
+
+@media screen and (max-width: 900px)
+{
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+    }
+    .barre{
+        width: 70vw;
+    }
+
+}
+
+
+
