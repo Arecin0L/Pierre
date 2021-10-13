@@ -6,13 +6,28 @@
 body{
     background: rgba(255, 255, 255, 0.89);
 }
-.header{
-    @include position;
+.jjj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: sticky;
     top: 0;
     height: 15vh;
-
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+}
+
 .lienhead{
     @include position;
     width: 70vw;
@@ -68,14 +83,7 @@ a{
 i{
     color: $first_color;
 }
-.nav{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    font-size: 25px;
-    border-bottom: 2px solid $sec_color;
-   
-  }
+
   .tnp, .n, .pr{
     color: $first_color;
   }
@@ -135,8 +143,6 @@ i{
 
 }
 
-
-
 p{
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
