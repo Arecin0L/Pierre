@@ -1,0 +1,137 @@
+@import './stock.scss';
+
+*{
+    margin: 0;
+}
+body{
+    background: rgba(255, 255, 255, 0.89);
+}
+header{
+    @include position;
+    height: 20vh;
+
+}
+.lienhead{
+    @include position;
+    width: 70vw;
+}
+.truc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
+.barre{
+    border-radius: 10px 0 0 10px;
+    background: none;
+    font-size: 25px;
+    height: 5vh;
+    width: 15vw;
+    float: left;
+}
+div.search button{
+    height: 6vh;
+    float: left;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.si, .p, .l, .ap{
+    color: $sec_color;
+    font-size: 28px;
+    width: 10vw;
+    text-align: center;
+    border-radius: 15px;
+}
+.si, .ap{
+    width: 13vw;
+}
+h1{
+    font-size: 30px;
+    color: $sec_color;
+}
+i, .si, .p, .l, .ap, .barre::after {
+    @include deco;
+}
+a{
+    @include deco;
+}
+.barre, .barre:hover{
+    @include border;
+}
+i{
+    color: $first_color;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 25px;
+    border-bottom: 2px solid $sec_color;
+   
+  }
+  .tnp, .n, .pr{
+    color: $first_color;
+  }
+.spal{
+    @include position;
+    width: 35vw;
+}
+
+
+  /*menu déroulant*/
+.menuderoulant{
+    position: relative;
+    display: inline-block;
+}
+.menu{
+    display: none;
+    position: absolute;
+    background-color:grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+.menu a{
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menu a:hover{
+    background-color: #f1975f;
+}
+.menuderoulant:hover .menu{
+    display: block;
+}
+.tnp{
+    cursor: pointer;
+}
+
+.dispimg{
+    @include position;
+}
+
+
+@media screen and (max-width: 900px)
+{
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+    }
+    .barre{
+        width: 70vw;
+    }
+
+}
+
+
+

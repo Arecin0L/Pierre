@@ -1,24 +1,156 @@
-*{
-    margin: 0;
+@charset "UTF-8";
+* {
+  margin: 0;
 }
-header
-{
+
+body {
+  background: rgba(255, 255, 255, 0.89);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+
+.lienhead {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+}
+
+.truc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 3vw;
+  margin-left: 2vw;
+}
+
+.barre {
+  border-radius: 10px 0 0 10px;
+  background: none;
+  font-size: 25px;
+  height: 5vh;
+  width: 15vw;
+  float: left;
+}
+
+div.search button {
+  height: 6vh;
+  float: left;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.si, .p, .l, .ap {
+  color: #000;
+  font-size: 28px;
+  width: 10vw;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.si, .ap {
+  width: 13vw;
+}
+
+h1 {
+  font-size: 30px;
+  color: #000;
+}
+
+i, .si, .p, .l, .ap, .barre::after {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.barre, .barre:hover {
+  border: 2px dotted black;
+}
+
+i {
+  color: #c348ce;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  border-bottom: 2px solid #000;
+}
+
+.tnp, .n, .pr {
+  color: #c348ce;
+}
+
+.spal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35vw;
+}
+
+/*menu déroulant*/
+.menuderoulant {
+  position: relative;
+  display: inline-block;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu a:hover {
+  background-color: #f1975f;
+}
+
+.menuderoulant:hover .menu {
+  display: block;
+}
+
+.tnp {
+  cursor: pointer;
+}
+
+.dispimg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  header {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    background: #403e3e;
-    height: 20vh;
-}
-.l
-{
-    margin-right: 3vw;
-    margin-left: 2vw;
-}
-/*# sourceMappingURL=index.css.map *//*# sourceMappingURL=index.css.map */
-.barre{
-    border-radius: 15px;
-    width: 15vw;
-}
-.search{
-    border-radius: 50px;
-}
+    margin: 25px;
+  }
+
+  .barre {
+    width: 70vw;
+  }
+}/*# sourceMappingURL=index.css.map */

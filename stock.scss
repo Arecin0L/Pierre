@@ -1,0 +1,15 @@
+//Variable
+$first_color: rgb(195, 72, 206);
+$sec_color: #000;
+
+@mixin position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin deco {
+    text-decoration: none;
+}
+@mixin border {
+    border: 2px dotted black;
+}
