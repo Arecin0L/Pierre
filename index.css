@@ -7,11 +7,14 @@ body {
   background: rgba(255, 255, 255, 0.89);
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 15vh;
 }
 
 .lienhead {
@@ -51,7 +54,7 @@ div.search button {
 }
 
 .si, .p, .l, .ap {
-  color: #000;
+  color: black;
   font-size: 28px;
   width: 10vw;
   text-align: center;
@@ -64,7 +67,7 @@ div.search button {
 
 h1 {
   font-size: 30px;
-  color: #000;
+  color: black;
 }
 
 i, .si, .p, .l, .ap, .barre::after {
@@ -88,7 +91,7 @@ i {
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid black;
 }
 
 .tnp, .n, .pr {
@@ -153,4 +156,7 @@ i {
   .barre {
     width: 70vw;
   }
+}
+p {
+  color: red;
 }/*# sourceMappingURL=index.css.map */

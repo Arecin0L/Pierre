@@ -6,9 +6,11 @@
 body{
     background: rgba(255, 255, 255, 0.89);
 }
-header{
+.header{
     @include position;
-    height: 20vh;
+    position: sticky;
+    top: 0;
+    height: 15vh;
 
 }
 .lienhead{
@@ -135,3 +137,6 @@ i{
 
 
 
+p{
+    color: rgb(255, 0, 0);
+}
