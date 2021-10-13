@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    border: ridge 1px black;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 15vh;
+}
+main{
+    margin: 5px;
+
+}   
+h1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: relative;
+    top: 50px;
+}
