@@ -1,3 +1,49 @@
 *{
     margin: 0;
+
+border: ridge 1px black;
 }
+header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+top: 0;
+height: 15vh;
+width: 100%;
+}
+main{
+margin: 5px;
+width: 100%;
+}
+main div{
+display: flex;
+justify-content: center;
+margin: 10px;
+}  
+main div p{
+margin-left: 10px ;
+}
+h1{
+display: flex;
+justify-content: center;
+}
+main img{
+height: 250px;
+border-radius: 0;
+}
+footer{
+position: relative;
+top: 50px;
+} 
+.img2, .img4{
+flex-direction: row-reverse;
+}
+.img1, .img3, .img5{
+display: flex;
+justify-content: center;
+
+}
+
+
+
