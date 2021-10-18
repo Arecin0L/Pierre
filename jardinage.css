@@ -1,7 +1,10 @@
 *{
 
     margin:0;
-    border: ridge 1px black;
+    border: black 1px ridge;
+}
+body {
+    background: rgba(255, 255, 255, 0.89);
 }
 header {
     display: flex;
@@ -22,6 +25,7 @@ main div{
     margin: 10px;
 }  
 main div p{
+    margin-top: 80px;
     margin-left: 10px ;
 }
 h1{
