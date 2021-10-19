@@ -4,23 +4,21 @@
     margin: 0;
 }
 body{
-    background: rgba(255, 255, 255, 0.89);
+    background: grey;
 }
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     z-index: 1;
-    background: #3dc4bd;
 }
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 85vw;
     font-size: 25px;
-    border-bottom: 2px solid #000;
-    background: #3dc4bd;
+    
 }
 
 .lienhead{
