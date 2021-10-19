@@ -6,18 +6,11 @@
 body{
     background: rgba(255, 255, 255, 0.89);
 }
-.jjj{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    height: 15vh;
-}
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 .nav{
     display: flex;
@@ -126,6 +119,39 @@ i{
 .dispimg{
     @include position;
 }
+.grandmere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*carousel*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 900px)

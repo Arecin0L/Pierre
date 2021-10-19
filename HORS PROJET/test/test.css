@@ -1,0 +1,79 @@
+section {
+	width: 100%;
+	background-size: cover;
+	height: 100%;
+	min-height: 1000px;
+	overflow: hidden;
+	font-family: "quicksandlight", Helvetica, Arial;
+	color: #FFFFFF;
+	text-shadow: -1px -1px 4px rgba(0, 0, 0, 0.35);
+	filter: dropshadow(color #000000, offx=1, offy=1);
+	margin-top: 10vh;
+	opacity: 0.7;
+  }
+  
+  .grandmere {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #allcrs {
+	position: absolute;
+	margin-left: -500px;
+	margin-top: -500px;
+	left: 50%;
+	top: 50%;
+	width: 1000px;
+	height: 1000px;
+  }
+  
+  #blop {
+	position: absolute;
+	margin-left: -500px;
+	margin-top: -500px;
+	left: 50%;
+	top: 50%;
+	width: 1000px;
+	height: 1000px;
+  }
+  
+  .trans3d {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform-style: preserve-3d;
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform-style: preserve-3d;
+	-ms-transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+	transform: translate3d(0, 0, 0);
+  }
+  
+  .carou {
+	width: 320px;
+	height: 130px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -160px;
+	margin-top: -90px;
+  }
+  
+  .crsnumb {
+	width: 320px;
+	height: 130px;
+	position: absolute;
+	background-color: rgba(236, 236, 236, 0.75);
+	border: 10px solid rgba(187, 185, 185, 0.5);
+	color: #be4b3c;
+	font-size: 72px;
+	left: 50%;
+	top: 50%;
+	margin-left: -160px;
+	margin-top: -90px;
+	text-align: center;
+	padding-top: 50px;
+  }
+  
+  
