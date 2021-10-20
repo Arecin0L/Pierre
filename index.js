@@ -57,7 +57,7 @@ function animateIn( $item, $block )
 
 function onMouseMove(event)
 {
-    mouseX = -(-(window.innerWidth * .5) + event.pageX) * .0025;
+    mouseX = -(-(window.innerWidth * .5) + event.pageX) * .00125;
     mouseY = -(-(window.innerHeight * .5) + event.pageY ) * .01;
     mouseZ = -(radius) - (Math.abs(-(window.innerHeight * .5) + event.pageY ) - 200);
 }
