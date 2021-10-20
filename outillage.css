@@ -2,6 +2,9 @@
     margin: 0;
     border: ridge 1px black;
 }
+body {
+    background: rgb(255, 255, 255);
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -14,6 +17,7 @@ header {
 main{
     margin: 5px;
     width: 100%;
+    color: black;
 }
 main div{
     display: flex;
