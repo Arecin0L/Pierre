@@ -5,11 +5,6 @@ let mouseZ = 0;
 let addX = 0;
 
 
-// fps counter created by: https://gist.github.com/sharkbrainguy/1156092,
-// no need to create my own :)
-
-
-
 $(document).ready( init )
 
 function init()
@@ -23,24 +18,21 @@ function init()
     rY = 360 / itemLength;
     radius = Math.round( (250) / Math.tan( Math.PI / itemLength ) );
     
-    // set container 3d props
+   
     TweenMax.set(container, {perspective:600})
     TweenMax.set(carousel, {z:-(radius)})
     
-    // create carousel item props
     
     for ( let i = 0; i < itemLength; i++ )
     {
         let $item = item.eq(i);
         let $block = $item.find('.carouselItemInner');
-        
-//thanks @chrisgannon!        
+               
 TweenMax.set($item, {rotationY:rY * i, z:radius, transformOrigin:"50% 50% " + -radius + "px"});
         
         animateIn( $item, $block )						
     }
     
-    // set mouse x and y props and looper ticker
     window.addEventListener( "mousemove", onMouseMove, false );
     ticker = setInterval( looper, 1000/60 );			
 }
@@ -70,7 +62,6 @@ function onMouseMove(event)
     mouseZ = -(radius) - (Math.abs(-(window.innerHeight * .5) + event.pageY ) - 200);
 }
 
-// loops and sets the carousel 3d properties
 function looper()
 {
     addX += mouseX
@@ -83,3 +74,25 @@ function getRandomInt( $n )
 {
     return Math.floor((Math.random()*$n)+1);	
 }
+
+$(document).ready(function(){
+
+    $(".lopen").mouseenter(function openLang(){
+    $('#lang').css({
+        width: "15vw",
+        transform: "translateY(20vw)",
+        backgroundColor: "grey"
+    })
+})
+$(".lopen").mouseleave(function closeLang(){
+    $('#lang').css({
+        width: "0",
+        transform: "translateY(0)",
+        backgroundColor: "white"
+    })
+})
+
+});
+
+
+
