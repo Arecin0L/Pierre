@@ -5,7 +5,7 @@
 
 body {
   font-family: Kanit;
-  background: grey;
+  background: rgb(155, 188, 192);
 }
 
 header {
@@ -112,7 +112,7 @@ i {
 .menu {
   display: none;
   position: absolute;
-  background-color: grey;
+  background-color: rgb(163, 148, 148);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
