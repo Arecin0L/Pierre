@@ -1,10 +1,10 @@
 *{
 
     margin:0;
-    border: black 1px ridge;
+    border: black 1px ridge;    
 }
 body {
-    background: rgba(255, 255, 255, 0.89);
+    background: rgb(255, 255, 255);
 }
 header {
     display: flex;
@@ -18,6 +18,7 @@ header {
 main{
     margin: 5px;
     width: 100%;
+    color: black;
 }
 main div{
     display: flex;

@@ -10,6 +10,7 @@ header {
     top: 0;
     height: 15vh;
     width: 100%;
+    color: black;
 }
 main{
     margin: 5px;
