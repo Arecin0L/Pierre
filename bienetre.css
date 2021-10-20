@@ -18,6 +18,8 @@ header {
 main{
     margin: 5px;
     width: 100%;
+    color: black;
+
 }
 main div{
     display: flex;
