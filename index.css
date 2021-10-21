@@ -73,7 +73,6 @@ div.search button {
 
 h1 {
   font-size: 30px;
-<<<<<<< Updated upstream
   color: white;
 }
 
@@ -150,6 +149,9 @@ i {
   justify-content: center;
   align-items: center;
 }
+::placeholder{
+  color: rgba(0, 0, 0, 0.692);
+}
 
 /*carousel*/
 @media screen and (max-width: 900px) {
@@ -164,14 +166,3 @@ i {
     width: 70vw;
   }
 }/*# sourceMappingURL=index.css.map */
-=======
-}/*# sourceMappingURL=index.css.map */
-.sousmenu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #394e75af;
-    height: 10vh;
-    top:-20vh
-}
->>>>>>> Stashed changes
