@@ -62,13 +62,13 @@ div.search button {
 .si, .p, .l, .ap {
   color: white;
   font-size: 28px;
-  width: 10vw;
+  width: 25vw;
   text-align: center;
   border-radius: 15px;
 }
 
 .si, .ap {
-  width: 13vw;
+  width: 25vw;
 }
 
 h1 {
@@ -126,7 +126,7 @@ i {
 }
 
 .menu a:hover {
-  background-color: #f1975f;
+  background-color: #1a948d;
 }
 
 .menuderoulant:hover .menu {

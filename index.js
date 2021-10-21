@@ -81,14 +81,14 @@ $(document).ready(function(){
     $('#lang').css({
         width: "15vw",
         transform: "translateY(20vw)",
-        backgroundColor: "grey"
+        backgroundColor: "rgb(155, 188, 192)",
     })
 })
-$(".lopen").mouseleave(function closeLang(){
+$(".lopen").click(function closeLang(){
     $('#lang').css({
         width: "0",
         transform: "translateY(0)",
-        backgroundColor: "white"
+        backgroundColor: "white",
     })
 })
 

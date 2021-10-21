@@ -88,13 +88,14 @@ section
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		width: 30vw;
 		align-items: center;
 		overflow: hidden;
 		transform: translateY(-20vw);
 		transition: 0.8s;
 		position: fixed;
-		top: 0;
+		top: -30vh;
+		
+
 	}
 	.changelang{
 		text-decoration: none;
@@ -103,8 +104,14 @@ section
 	}
 	.changelang:hover{
 		transform: scaleY(1.1);
-		color: chocolate;
+		color: #1a948d;
 		text-shadow: white 1px 1px 5px;
+	}
+	.lopen{
+		color: white;
+    	font-size: 28px;
+    	width: 10vw;
+    	text-align: center;
 	}
 	
 	
