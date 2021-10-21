@@ -5,7 +5,7 @@
 
 body {
   font-family: Kanit;
-  background: rgb(155, 188, 192);
+  background: #9bbcc0;
 }
 
 header {
@@ -112,7 +112,7 @@ i {
 .menu {
   display: none;
   position: absolute;
-  background-color: rgb(163, 148, 148);
+  background-color: grey;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -126,7 +126,7 @@ i {
 }
 
 .menu a:hover {
-  background-color: #1a948d;
+  background-color: #f1975f;
 }
 
 .menuderoulant:hover .menu {
