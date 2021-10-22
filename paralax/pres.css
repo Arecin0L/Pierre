@@ -54,7 +54,7 @@ h2, p{
     font-family: Kanit;
     font-size: 50px;
 }
-#scroll1{
+.pos{
     scroll-snap-type: y mandatory;
 }
 
