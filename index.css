@@ -149,11 +149,19 @@ i {
   justify-content: center;
   align-items: center;
 }
-::placeholder{
+
+::-moz-placeholder {
   color: rgba(0, 0, 0, 0.692);
 }
 
-/*carousel*/
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.692);
+}
+
 @media screen and (max-width: 900px) {
   header {
     display: flex;

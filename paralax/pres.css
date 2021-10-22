@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pos{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+.pos .postext{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.pos .postext:nth-child(1){
+    background: url(../paralax/st_michel.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pos .postext:nth-child(2){
+    background: url(../paralax/beach.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pos .postext:nth-child(3){
+    background: url(../paralax/forest.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pos .postext:nth-child(4){
+    background: url(../paralax/gl.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pos .postext .style_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pos .postext .style_title h2 p{
+    background: #fff;
+    color: #111;
+    font-weight: 600;
+}
+h2, p{
+    color: white;
+    font-family: Kanit;
+    font-size: 50px;
+}
+#scroll1{
+    scroll-snap-type: y mandatory;
+}
+
+
+
+
+.custom {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+  
+.btn {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+ 
+  perspective: 300px;
+  
+  transform-style: preserve-3d;
+}
+.btn:hover{
+  color: #1a948d;
+}
+.btn::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 0.3s ease;
+}
+  .btn:hover::after {
+    
+    transform: rotateX(-180deg);
+  }
+
+  
