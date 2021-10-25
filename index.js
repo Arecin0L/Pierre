@@ -79,20 +79,19 @@ $(document).ready(function(){
 
     $(".lopen").mouseenter(function openLang(){
     $('#lang').css({
-        width: "15vw",
-        transform: "translateY(20vw)",
-        backgroundColor: "rgb(155, 188, 192)",
+        width: "50vw",
+        transform: "translateY(30vw)",
+        backgroundColor: "red",
     })
 })
 $(".lopen").click(function closeLang(){
     $('#lang').css({
         width: "0",
         transform: "translateY(0)",
-        backgroundColor: "white",
+        backgroundColor: "transparent",
     })
 })
 
+
 });
-
-
 
