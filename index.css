@@ -59,16 +59,23 @@ div.search button {
   background: none;
 }
 
-.si, .p, .l, .ap {
+.si, .p, .lg, .ap {
   color: white;
   font-size: 28px;
-  width: 25vw;
+  width: 30vw;
   text-align: center;
-  border-radius: 15px;
 }
 
 .si, .ap {
-  width: 25vw;
+  width: 15vw;
+}
+.p, .lg{
+  width: 10vw;
+}
+.si, .p, .lg{
+  border-right: 2px solid black;
+  height: 4vh;
+  
 }
 
 h1 {
@@ -100,8 +107,9 @@ i {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 37vw;
+  width: 45vw;
 }
+
 
 /*menu déroulant*/
 .menuderoulant {
