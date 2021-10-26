@@ -77,17 +77,18 @@ function getRandomInt( $n )
 
 $(document).ready(function(){
 
-    $(".lopen").mouseenter(function openLang(){
+    $(".lg").click(function openLang(){
     $('#lang').css({
-        width: "50vw",
-        transform: "translateY(30vw)",
-        backgroundColor: "red",
+        width: "20vw",
+        transform: "translateY(20vw)",
+        backgroundColor: "transparent",
+        right: "14vw",
     })
 })
-$(".lopen").click(function closeLang(){
+$(".lg").(function closeLang(){
     $('#lang').css({
         width: "0",
-        transform: "translateY(0)",
+        transform: "translateX(100vh)",
         backgroundColor: "transparent",
     })
 })
