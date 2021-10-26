@@ -74,7 +74,8 @@ div.search button {
 }
 .si, .p, .lg{
   border-right: 2px solid black;
-  height: 4vh;
+  height: 3vh;
+  
   
 }
 
@@ -106,7 +107,7 @@ i {
 .spal {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   width: 45vw;
 }
 

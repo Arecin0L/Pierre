@@ -77,7 +77,7 @@ function getRandomInt( $n )
 
 $(document).ready(function(){
 
-    $(".lg").click(function openLang(){
+    $(".lg").mouseenter(function openLang(){
     $('#lang').css({
         width: "20vw",
         transform: "translateY(20vw)",
@@ -85,7 +85,7 @@ $(document).ready(function(){
         right: "14vw",
     })
 })
-$(".lg").(function closeLang(){
+$(".lg").click(function closeLang(){
     $('#lang').css({
         width: "0",
         transform: "translateX(100vh)",
