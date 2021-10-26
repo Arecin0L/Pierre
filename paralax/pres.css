@@ -1,59 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.pos{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    scroll-snap-type: y mandatory;
+
+.pos {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 }
-.pos .postext{
-    position: relative;
-    width: 100%;
-    height: 100%;
+
+.pos .postext {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.pos .postext:nth-child(1){
-    background: url(../paralax/st_michel.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.pos .postext:nth-child(1) {
+  background: url(../paralax/st_michel.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.pos .postext:nth-child(2){
-    background: url(../paralax/beach.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.pos .postext:nth-child(2) {
+  background: url(../paralax/beach.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.pos .postext:nth-child(3){
-    background: url(../paralax/forest.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.pos .postext:nth-child(3) {
+  background: url(../paralax/forest.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.pos .postext:nth-child(4){
-    background: url(../paralax/gl.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.pos .postext:nth-child(4) {
+  background: url(../paralax/gl.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
-.pos .postext .style_title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+.pos .postext .style_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.pos .postext .style_title h2 p{
-    background: #fff;
-    color: #111;
-    font-weight: 600;
+
+.pos .postext .style_title h2 p {
+  background: #fff;
+  color: #111;
+  font-weight: 600;
 }
-h2, p{
-    color: white;
-    font-family: Kanit;
-    font-size: 50px;
+
+h2,
+p {
+  color: white;
+  font-family: Kanit;
+  font-size: 50px;
 }
 
 /*button*/
@@ -70,7 +81,8 @@ h2, p{
   position: relative;
   display: inline-block;
 }
-  /*btn1*/
+
+/*btn1*/
 .btn {
   line-height: 40px;
   padding: 0;
@@ -83,9 +95,11 @@ h2, p{
   perspective: 300px;
   transform-style: preserve-3d;
 }
-.btn:hover{
+
+.btn:hover {
   color: #1a948d;
 }
+
 .btn::after {
   position: absolute;
   content: "";
@@ -102,49 +116,14 @@ h2, p{
   transform: rotateX(0);
   transition: all 1.3s ease;
 }
-  .btn:hover::after {
-    
-    transform: rotateX(-180deg);
-  }
 
-  /*btn2*/
-.btn-2 {
-  line-height: 40px;
-  padding: 0;
-  background: transparent;
-  border: 1px solid #a7d97f;
-  box-shadow: 0 0 5px #a7d97f, 0 0 5px #a7d97f inset;
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  perspective: 300px;
-  transform-style: preserve-3d;
+.btn:hover::after {
+
+  transform: rotateX(-180deg);
 }
-.btn-2:hover{
-  color: #a7d97f;
-}
-.btn-2::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #a7d97f;
-  box-shadow: 0 0 5px #a7d97f;
-  z-index: -1;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
-  transition: all 1.3s ease;
-}
-  .btn-2:hover::after {
-    
-    transform: rotateX(-180deg);
-  }
-  /*btn3*/
-.btn3 {
+
+/*btn2*/
+.btn2 {
   line-height: 40px;
   padding: 0;
   background: transparent;
@@ -156,9 +135,98 @@ h2, p{
   perspective: 300px;
   transform-style: preserve-3d;
 }
-.btn3:hover{
+
+.btn2:hover {
   color: #1a948d;
 }
+
+.btn2::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn2:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+/*btn3
+.btn3 {
+  position: relative;
+  color: #00aced;
+  border: none;
+  z-index: 2;
+}
+
+.btn3:before,
+.btn3:after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  border: 1px solid;
+
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.btn3:before {
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #00aced;
+  border-left-color: #00aced;
+}
+
+.btn3:after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #00aced;
+  border-right-color: #00aced;
+}
+
+.btn3:hover:before,
+.btn3:hover:after {
+  border-color: #00aced;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px #00aced, 0 0 5px #00aced inset;
+}
+*/
+
+/*btn3*/
+.btn3 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #861a94, 0 0 5px #861a94 inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn3:hover {
+  color: #1a948d;
+}
+
 .btn3::after {
   position: absolute;
   content: "";
@@ -175,11 +243,684 @@ h2, p{
   transform: rotateX(0);
   transition: all 1.3s ease;
 }
-  .btn3:hover::after {
-    
-    transform: rotateX(-180deg);
-  }
 
-  a{
-    text-decoration: none;
-  }
+.btn3:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+/*btn4*/
+.btn4 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn4:hover {
+  color: #1a948d;
+}
+
+.btn4::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn4:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+/*btn5*/
+.btn5 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn5:hover {
+  color: #1a948d;
+}
+
+.btn5::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn5:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+
+/*btn6*/
+.btn6 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn6:hover {
+  color: #1a948d;
+}
+
+.btn6::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn6:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn7 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn7:hover {
+  color: #1a948d;
+}
+
+.btn7::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn7:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn8 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn8:hover {
+  color: #1a948d;
+}
+
+.btn8::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn8:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn9 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn9:hover {
+  color: #1a948d;
+}
+
+.btn9::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn9:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn10 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn10:hover {
+  color: #1a948d;
+}
+
+.btn10::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn10:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn11 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn11:hover {
+  color: #1a948d;
+}
+
+.btn11::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn11:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn12 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn12:hover {
+  color: #1a948d;
+}
+
+.btn12::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn12:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn13 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn13:hover {
+  color: #1a948d;
+}
+
+.btn13::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn13:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn14 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn14:hover {
+  color: #1a948d;
+}
+
+.btn14::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn14:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn15 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn15:hover {
+  color: #1a948d;
+}
+
+.btn15::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn15:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn16 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn16:hover {
+  color: #1a948d;
+}
+
+.btn16::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn16:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn17 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn17:hover {
+  color: #1a948d;
+}
+
+.btn17::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn17:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn18 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn18:hover {
+  color: #1a948d;
+}
+
+.btn18::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn18:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn19 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn19:hover {
+  color: #1a948d;
+}
+
+.btn19::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn19:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+.btn20 {
+  line-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid #1a948d;
+  box-shadow: 0 0 5px #1a948d, 0 0 5px #1a948d inset;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.btn20:hover {
+  color: #1a948d;
+}
+
+.btn20::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a948d;
+  box-shadow: 0 0 5px #1a948d;
+  z-index: -1;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  transition: all 1.3s ease;
+}
+
+.btn20:hover::after {
+
+  transform: rotateX(-180deg);
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
