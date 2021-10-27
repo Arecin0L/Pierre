@@ -42,7 +42,7 @@ header {
 }
 
 .barre {
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 10px 10px 10px;
   background: none;
   font-size: 25px;
   height: 5vh;
@@ -59,24 +59,16 @@ div.search button {
   background: none;
 }
 
-.si, .p, .lg, .ap {
+.si, .p, .l, .ap {
   color: white;
   font-size: 28px;
-  width: 30vw;
+  width: 25vw;
   text-align: center;
+  border-radius: 15px;
 }
 
 .si, .ap {
-  width: 15vw;
-}
-.p, .lg{
-  width: 10vw;
-}
-.si, .p, .lg{
-  border-right: 2px solid black;
-  height: 3vh;
-  
-  
+  width: 25vw;
 }
 
 h1 {
@@ -93,7 +85,7 @@ a {
 }
 
 .barre, .barre:hover {
-  border: 2px dotted black;
+  border: 2px solid black;
 }
 
 i {
@@ -107,10 +99,9 @@ i {
 .spal {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
-  width: 45vw;
+  align-items: center;
+  width: 37vw;
 }
-
 
 /*menu déroulant*/
 .menuderoulant {
