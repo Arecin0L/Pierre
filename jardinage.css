@@ -7,6 +7,7 @@ body {
     background: linear-gradient(rgb(66, 131, 41), rgb(95, 94, 94));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 }
 header { 
     display: flex;
