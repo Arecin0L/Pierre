@@ -4,9 +4,11 @@
       
 }
 body {
-    background: rgb(255, 255, 255);
+    background: linear-gradient(rgb(66, 131, 41), rgb(95, 94, 94));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-header {
+header { 
     display: flex;
     justify-content: space-around;
     align-items: center;

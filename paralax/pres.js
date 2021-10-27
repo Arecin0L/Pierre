@@ -167,3 +167,166 @@ function randopif20(){
 
 }
 randopif20();
+
+function randopif21(){
+    let btn = $(".btn21");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif21();
+
+function randopif22(){
+    let btn = $(".btn22");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif22();
+
+function randopif23(){
+    let btn = $(".btn23");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif23();
+
+function randopif24(){
+    let btn = $(".btn24");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif24();
+
+function randopif25(){
+    let btn = $(".btn25");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif25();
+
+function randopif26(){
+    let btn = $(".btn26");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif26();
+
+function randopif27(){
+    let btn = $(".btn27");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif27();
+
+function randopif28(){
+    let btn = $(".btn28");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif28();
+
+function randopif29(){
+    let btn = $(".btn29");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif29();
+
+function randopif30(){
+    let btn = $(".btn30");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif30();
+
+
+function randopif31(){
+    let btn = $(".btn31");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif31();
+
+function randopif32(){
+    let btn = $(".btn32");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif32();
+
+function randopif33(){
+    let btn = $(".btn33");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif33();
+
+function randopif34(){
+    let btn = $(".btn34");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif34();
+
+function randopif35(){
+    let btn = $(".btn35");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif35();
+
+function randopif36(){
+    let btn = $(".btn36");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif36();
+
+function randopif37(){
+    let btn = $(".btn37");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif37();
+
+function randopif38(){
+    let btn = $(".btn38");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif38();
+
+function randopif39(){
+    let btn = $(".btn39");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif39();
+
+function randopif40(){
+    let btn = $(".btn40");
+    btn.css({top: Math.floor((Math.random() * 740) + 1) + "px" });
+    btn.css({left: Math.floor((Math.random() * 450) + 1) + "px"});
+
+}
+randopif40();
+
+

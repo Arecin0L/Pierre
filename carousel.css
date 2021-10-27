@@ -42,11 +42,11 @@ section
 {
 	position:absolute;
 	margin-left:-500px;
-	margin-top:-200px;
+	margin-top:-500px;
 	left:50%;
 	top:50%;
 	width:1000px;
-	height:400px;
+	height:1000px;
 }
 
 .carouselItem
@@ -71,10 +71,11 @@ section
 	font-size:72px;
 	left:50%;
 	top:50%;
-	margin-left:-160px;
-	margin-top:-90px;
+	margin-left:-163px;
+	margin-top:-65px;
 	text-align:center;
 	padding-top:50px;
+	opacity: 0;
 	
 }
 /*langue*/
@@ -97,6 +98,10 @@ section
 	text-decoration: none;
 	color: rgb(84, 180, 236);
 	transition: 1.5s ease;
+	display: flex;
+	flex-direction: row;
+	font-size: 25px;
+	
 }
 .changelang:hover{
 	transform: scaleY(1.1);
@@ -109,4 +114,8 @@ section
 	width: 10vw;
 	text-align: center;
 }
-
+.flag{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
