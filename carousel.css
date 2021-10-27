@@ -98,6 +98,10 @@ section
 	text-decoration: none;
 	color: rgb(84, 180, 236);
 	transition: 1.5s ease;
+	display: flex;
+	flex-direction: row;
+	font-size: 25px;
+	
 }
 .changelang:hover{
 	transform: scaleY(1.1);
