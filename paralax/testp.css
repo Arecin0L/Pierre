@@ -22,7 +22,7 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    border: 10px solid #2ea4f2;
+    border: 10px solid #fff;
     border-radius: 100%;
   }
   
@@ -57,7 +57,7 @@
     bottom: 0;
     margin: auto;
     width: 10px;
-    height: 125px;
+    height: 130px;
     background: #FFFFFF;
     border-radius: 50px;
     transition: height .5s ease;
@@ -157,6 +157,7 @@
       transform: rotate(-45deg);
       left: 0px;
       height: 45px;
+      background: green;
     }
   }
   
@@ -166,12 +167,14 @@
       right: -10px;
       height: 75px;
       bottom: -10px;
+      
     }
     100% {
       transform: rotate(45deg);
       right: 10px;
       height: 80px;
       bottom: -15px;
+      background: green;
     }
   }
   
@@ -180,6 +183,6 @@
       border: 10px solid transparent;
     }
     100% {
-      border: 10px solid #FFFFFF;
+      border: 10px solid white;
     }
   }
