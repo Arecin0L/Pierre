@@ -66,6 +66,9 @@ p {
   font-family: Kanit;
   font-size: 50px;
 }
+.til{
+  text-align: center;
+}
 
 /*button*/
 .custom {
