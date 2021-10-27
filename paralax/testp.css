@@ -117,7 +117,7 @@
     width: 10px;
     height: 75px;
     bottom: -10px;
-    background: #FFFFFF;
+    background:white;
     border-radius: 50px;
     transition: transform .15s ease .47s, left .15s ease .47s, right .15s ease .47s;
   }
