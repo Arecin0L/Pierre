@@ -1,9 +1,0 @@
-*{
-    margin: 0;
-}
-
-body{
-    background: linear-gradient(50deg, green, blue);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
