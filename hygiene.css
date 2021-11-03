@@ -1,9 +1,11 @@
 *{
     margin: 0;
-    border: ridge 1px black;
+    
 }
 body {
     background: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
 display: flex;
