@@ -18,8 +18,8 @@
     border: 4px solid #ffffff;
     padding: 20px 50px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(183, 99, 204), 0 0 10px rgb(183, 99, 204), 
-      inset 0 0 10px rgb(183, 99, 204), inset 0 0 10px rgb(183, 99, 204);
+    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177), 
+      inset 0 0 10px rgb(145, 19, 177), inset 0 0 10px rgb(145, 19, 177);
     animation: animate 1s linear infinite;
    }
    
@@ -31,7 +31,7 @@
     height: 4px;
     background: #ffffff;
     width: 100%;
-    box-shadow: 0 0 10px rgb(183, 99, 204), 0 0 10px rgb(183, 99, 204);
+    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
     z-index: -1;
    }
    
@@ -43,14 +43,14 @@
     height: 4px;
     background: #ffffff;
     width: 100%;
-    box-shadow: 0 0 10px rgb(183, 99, 204), 0 0 10px rgb(183, 99, 204);
+    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
     z-index: -1;
    }
    
    h1 {
     font-size: 6em;
     color: #ffffff;
-    text-shadow: 0 0 10px rgb(183, 99, 204), 0 0 20px rgb(183, 99, 204), 0 0 80px rgb(183, 99, 204), 0 0 120px ;
+    text-shadow: 0 0 10px rgb(145, 19, 177), 0 0 20px rgb(145, 19, 177), 0 0 80px rgb(145, 19, 177), 0 0 120px ;
    }
    
    h1 span {
