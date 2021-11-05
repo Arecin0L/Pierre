@@ -3,7 +3,7 @@
     
 }
 body {
-    background: rgb(117, 103, 103);
+    background: rgb(113, 117, 103);
 }
 header {
     display: flex;
@@ -34,14 +34,15 @@ h1{
 }
 main img{
     height: 250px;
-    border-radius: 0;
+    border-radius:10%;
 }
 footer{
     position: relative;
     top: 50px;
 } 
 .img2, .img4, .img6{
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
+    
 }
 .img1, .img3, .img5{
     display: flex;
