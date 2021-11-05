@@ -253,7 +253,7 @@ footer{
    .kriss:before {
     content: '';
     position: absolute;
-    bottom: 80px;
+    bottom: 6vh;
     left: 0;
     height: 4px;
     background: #ffffff;
@@ -265,7 +265,7 @@ footer{
    .kriss:after {
     content: '';
     position: absolute;
-    top: 100px;
+    top: 6vh;
     left: 0;
     height: 4px;
     background: #ffffff;
@@ -275,7 +275,7 @@ footer{
    }
    
    .loni {
-    font-size: 6em;
+    font-size: 2em;
     color: #ffffff;
     text-shadow: 0 0 10px rgb(145, 19, 177), 0 0 20px rgb(145, 19, 177), 0 0 80px rgb(145, 19, 177), 0 0 120px ;
    }
