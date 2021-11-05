@@ -17,6 +17,9 @@ header {
     width: 100%;
     color: black;
 }
+section{
+  margin-top: 200px;
+}
 main{
     margin: 5px;
     width: 100%;
@@ -239,7 +242,7 @@ footer{
 
   .kriss {
     position: absolute;
-    top: 15%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%) skewY(-5deg);
     border: 4px solid #ffffff;

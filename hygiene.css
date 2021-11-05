@@ -15,6 +15,9 @@ position: relative;
 top: 0;
 height: 15vh;
 width: 100%;
+} 
+section{
+  margin-top: 200px;
 }
 main{
 margin: 5px;
@@ -237,7 +240,7 @@ body {
   }
   .kriss {
     position: absolute;
-    top: 15%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%) skewY(-5deg);
     border: 4px solid #ffffff;
