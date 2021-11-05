@@ -233,6 +233,95 @@ body {
       border: 10px solid transparent;
     }
   }
+  .kriss {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%) skewY(-5deg);
+    border: 4px solid #ffffff;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177), 
+      inset 0 0 10px rgb(145, 19, 177), inset 0 0 10px rgb(145, 19, 177);
+    animation: animate 1s linear infinite;
+   }
+   
+   .kriss:before {
+    content: '';
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    height: 4px;
+    background: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
+    z-index: -1;
+   }
+   
+   .kriss:after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 0;
+    height: 4px;
+    background: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
+    z-index: -1;
+   }
+   
+   .loni {
+    font-size: 6em;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(145, 19, 177), 0 0 20px rgb(145, 19, 177), 0 0 80px rgb(145, 19, 177), 0 0 120px ;
+   }
+   
+   .loni .fredo {
+    animation: animate .5s linear infinite;
+   }
+   
+   .loni .fredo:nth-child(1) {
+    animation-delay: .25s;
+   }
+   
+   .loni .fredo:nth-child(2) {
+    animation-delay: .2s;
+   }
+   
+   .loni .fredo:nth-child(3) {
+    animation-delay: .35s;
+   }
+   
+   
+   @keyframes animate {
+    0% {
+    opacity: 1;
+    }
+    30% {
+    opacity: 1;
+    }
+    40% {
+    opacity: 0.5;
+    }
+    50% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 1;
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
