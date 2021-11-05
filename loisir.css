@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background: linear-gradient(rgb(185, 109, 46), rgb(95, 94, 94));
+    background: #9bbcc0 ;
 }
 header {
     display: flex;
