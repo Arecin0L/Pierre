@@ -1,0 +1,1 @@
+INSERT INTO `voltali` `proprio` (`id`, `nom`, `prenom`) VALUES ('4', 'coppa', 'AS ROMA');
