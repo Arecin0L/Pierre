@@ -1,0 +1,92 @@
+/*position*/
+*{
+    margin: 0;
+}
+
+.labin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    
+}
+.zindex{
+    width: 33%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 12px 0 white;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.piclog{
+    width: 7vw;
+    transition: transforme 0.8s;
+}
+.piclog:hover{
+    transform: rotateX(360deg);
+}
+
+input{
+    border: none;
+    background: transparent;
+    outline: none; /* enleve bordure après selection*/
+    font-size: 27px;
+}
+input::selection{
+    color: #d33b3b;
+}
+.inpdec{
+    border-bottom: 2px solid #d9d9d9;
+}
+.far, .fas{
+    color: #d9d9d9;
+}
+::placeholder{
+    font-size: 1.5vw;
+}
+input.decop, input.decou{
+    height: 5vh;
+}
+.sufp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+
+}
+a.forgotpass{
+    text-decoration: none;
+    color: #999;
+    font-size: 1.5vw;
+    display: block;
+    text-align: right;
+}
+.logbtn{
+    color: #444444;
+    border-radius: 10px;
+    height: 5vh;
+    width: 20vw;
+    background: rgb(189, 189, 189);
+}
+
+/*flip log*/
+.piclog{
+    transform: rotateX(360deg);
+}
+.log_reg{
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.log_reg a{
+    text-decoration: none;
+    color: #999;
+    font-size: 1.5vw;
+}
+
