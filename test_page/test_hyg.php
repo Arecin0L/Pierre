@@ -48,8 +48,24 @@
         <section class="text">
             <a href="#scrollfi"></a>
         </section>
-         -->
+         
 
+    </div>
+-->
+
+
+    <div class="para">
+        <div class="sticky">
+            <div class="stick active"></div>
+        </div>
+        <section class="s1">Sect1</section>
+        <div class="home">
+            <span>Title test</span>
+        </div>
+        <section class="s2">Sect2</section>
+        <section class="s3">Sect3</section>
+        <section class="s4">Sect4</section>
+        <section class="s5">Sect5</section>
     </div>
 
 
@@ -59,7 +75,6 @@
 
 
 
-
-
 </body>
+<script src="./test_hyg.js"></script>
 </html>
