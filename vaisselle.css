@@ -314,3 +314,9 @@ body {
     100% {
     opacity: 1;
     }
+  }
+  .back
+  {
+    height: 100px;
+    width: auto;
+  }
