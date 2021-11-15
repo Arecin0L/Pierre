@@ -10,7 +10,7 @@
 <body>
 
 
-<div class="layout">
+<div class="para">
     <div class="section-stick">
       <div class="stick active"></div>
     </div>
@@ -33,18 +33,22 @@
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M5 6l5 5l5-5l2 1l-7 7l-7-7z" fill="#fff"/><rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" /></svg>
       </div>
     </section>
+
     <section class="s2">
       <div class="fourch">
         <img class="border"src="../photo projet 2/vaisselle/fourchaine.jpg" alt="">
-        <p class="fourchtext">Pas besoin de mots, cette image parle d'elle même, ce chef d'oeuvre sera idéal pour tout amateur de gastronomie acrobatique.
-                  <br>
-                  <br>
-                  Un seul mot me vient à l'esprit BONNE CHANCE aux amateurs de petits pois ou tout autres fans de riz!!
-                  une exclusivitée de l'entreprise truC.
-              </p>
-              <button class="stylebtn">Acheter</button>
+        <div class="textbtn">
+          <p class="fourchtext">Pas besoin de mots, cette image parle d'elle même, ce chef d'oeuvre sera idéal pour tout amateur de gastronomie acrobatique.
+                    <br>
+                    <br>
+                    Un seul mot me vient à l'esprit BONNE CHANCE aux amateurs de petits pois ou tout autres fans de riz!!
+                    une exclusivitée de l'entreprise truC.
+                </p>
+                <input type="submit" class="stylebtn" name="buy" value="Acheter">
+        </div>
       </div>
     </section>
+
     <section class="s3">
       <div class="tassbiz">
 
@@ -68,10 +72,12 @@
                 </p>
       </div>  
       </section>
+
       <section class="s5">
         <div class="verpik">
 
         <img class="border" src="../photo projet 2/vaisselle/verre_piquant.jpg" alt="">
+        
         <p class="pext">
                 Un incontournable de la communauté Gitane, enfin chez vous grâce à la société truC, en effet ce verre a pied mi-oeuvre d'art, mi-verre à pied en peau de niglot sauvage te plaira mon cousin et trouvera une place dans ta camping entre la statue de la vierge Marie et le fusil à pompe du cousin Pedro.
             <br>

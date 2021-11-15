@@ -355,7 +355,7 @@ body {
     content: "New";
   }
 }
-/
+/*Product Rating  */
 .hint-star {
   display: inline-block;
   margin-left: 0.5em;
@@ -363,7 +363,7 @@ body {
   width: 50%;
 }
 
-
+/* The most important information about the product */
 #container .product-details > p {
   font-family: "Farsan", cursive;
   text-align: center;
@@ -407,7 +407,7 @@ body {
   margin: 0;
 }
 
-/* shopping carte icone */
+/* shopping cart icon */
 .btn .price, .shopping-cart {
   background: #333;
   border: 0;
@@ -419,7 +419,7 @@ body {
   padding-right: 15px;
 }
 
-
+/* the Icon */
 .btn .shopping-cart {
   transform: translateX(-100%);
   position: absolute;
@@ -429,7 +429,7 @@ body {
   top: 0;
 }
 
-
+/* buy */
 .btn .buy {
   z-index: 3;
   font-weight: bolder;
@@ -443,7 +443,7 @@ body {
   transform: translateX(0%);
 }
 
-
+/* product image  */
 .product-image {
   transition: all 0.3s ease-out;
   display: inline-block;
@@ -469,7 +469,7 @@ body {
   line-height: 1.9;
   text-align: left;
   font-size: 120%;
-  cursor: pointer;
+  cursor: no-drop;
   color: #FFF;
   height: 100%;
   width: 100%;
@@ -499,4 +499,4 @@ body {
 
 .product-image:hover img {
   transform: scale(1.2, 1.2);
-}
+}/*# sourceMappingURL=para.css.map */

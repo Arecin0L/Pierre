@@ -31,13 +31,13 @@
     display: none;
   }
   
-  .layout {
+  .para {
     width: 100%;
     height: calc(100vh * 3);
     position: relative;
   }
   
-  .layout .section-stick {
+  .para .section-stick {
     margin: auto;
     position: fixed;
     right: 50px;
@@ -50,21 +50,21 @@
     z-index: 1000;
   }
   
-  .layout .section-stick .stick,
-  .layout .section-stick .active {
+  .para .section-stick .stick,
+  .para .section-stick .active {
     width: 13px;
     height: 62px;
     border: none;
     border-radius: 9px;
   }
   
-  .layout .section-stick .stick {
+  .para .section-stick .stick {
     position: relative;
     background-color: rgba(255, 255, 255, 0.4);
     transition: all var(--time-animation) ease-in-out;
   }
   
-  .layout .section-stick .active {
+  .para .section-stick .active {
     position: absolute;
     background-color: var(--color-white);
     box-shadow: 0px 0px 12px 1px var(--color-white);
@@ -72,7 +72,7 @@
     -webkit-backdrop-filter: blur(3px);
   }
   
-  .layout section {
+  .para section {
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -91,18 +91,18 @@
     z-index: 0;
   }
   
-  .layout section .home {
+  .para section .home {
     display: flex;
     flex-direction: column;
     row-gap: 45px;
     align-items: center;
   }
   
-  .layout section .home svg {
+  .para section .home svg {
     animation: pulse 1.4s linear infinite normal;
   }
   
-  .layout .s1 {
+  .para .s1 {
     background-image: url(./cyberpunk-rtx-3p.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -111,7 +111,7 @@
   }
   
 
-  .layout .s2 {
+  .para .s2 {
     background-color: #02486b;
     z-index: 4;
   }
@@ -124,48 +124,61 @@
 }
 .fourchtext, .biztext, .poitext, .pext, .cuitext{
   font-size: 25px;
-
 }
 .border{
   border-radius: 5%;
 }
-  
-  .layout .s3 {
-    background-color: #02486b;
-    z-index: 3;
+.textbtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stylebtn{
+  color: white;
+  width: 7vw;
+  height: 4vh;
+  border-radius: 5%;
+}
+input{
+  border: none;
+  background: rgb(183, 99, 204);
+  outline: none;
+}
+
+.para .s3 {
+  background-color: #02486b;
+  z-index: 3;
+}
+.para .s4 {
+  background-color:#02486b;
+  z-index: 2;
+}
+.para .s5 {
+  background-color: #02486b;
+  z-index: 1;
+}
+.para .s6{
+  background-color:#02486b;
+  z-index: 2; 
+}
+/*** RESPONSIVE ***/
+
+/* MOBILE */
+@media screen and (max-width: 576px) {
+  body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    -webkit-appearance: none;
+  }
+
+  .para .section-stick {
+    right: 20px;
+    bottom: 20px;
+    transform: scale(0.7);
   }
   
-  
- 
-  .layout .s4 {
-    background-color:#02486b;
-    z-index: 2;
-  }
-  .layout .s5 {
-    background-color: #02486b;
-    z-index: 1;
-  }
-  .layout .s6{
-    background-color:#02486b;
-    z-index: 2; 
-  }
-  /*** RESPONSIVE ***/
-  
-  /* MOBILE */
-  @media screen and (max-width: 576px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-  
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-  
-    .layout section {
+    .para section {
       font-size: 40px;
     }
   }

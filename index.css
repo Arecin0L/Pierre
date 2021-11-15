@@ -5,8 +5,6 @@
 
 body {
   font-family: Kanit;
-  background-size: cover;
-  height: 100%;
   background: #9bbcc0;
 }
 
@@ -44,7 +42,7 @@ header {
 }
 
 .barre {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 0 0 10px;
   background: none;
   font-size: 25px;
   height: 5vh;
@@ -60,7 +58,6 @@ div.search button {
   cursor: pointer;
   background: none;
 }
-/*co*/
 
 .si, .p, .l, .ap {
   color: white;
@@ -71,7 +68,7 @@ div.search button {
 }
 
 .si, .ap {
-  width: 40vw;
+  width: 25vw;
 }
 
 h1 {
@@ -88,7 +85,7 @@ a {
 }
 
 .barre, .barre:hover {
-  border: 2px solid black;
+  border: 2px dotted black;
 }
 
 i {
@@ -119,7 +116,6 @@ i {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
-  
 }
 
 .menu a {
@@ -177,5 +173,4 @@ i {
   .barre {
     width: 70vw;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
