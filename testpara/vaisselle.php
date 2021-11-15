@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./testp.css">
+    <link rel="stylesheet" href="./vaisselle.css">
     <title>Document</title>
 </head>
 <body>
@@ -42,6 +42,7 @@
                   Un seul mot me vient à l'esprit BONNE CHANCE aux amateurs de petits pois ou tout autres fans de riz!!
                   une exclusivitée de l'entreprise truC.
               </p>
+              <button class="stylebtn">Acheter</button>
       </div>
     </section>
     <section class="s3">
@@ -72,13 +73,14 @@
 
         <img class="border" src="../photo projet 2/vaisselle/verre_piquant.jpg" alt="">
         <p class="pext">
-              Un incontournable de la communauté Gitane, enfin chez vous grâce à la société truC, en effet ce verre a pied mi-oeuvre d'art, mi-verre à pied en peau de niglot sauvage te plaira mon cousin et trouvera une place dans ta camping entre la statue de la vierge Marie et le fusil à pompe du cousin Pedro.
+                Un incontournable de la communauté Gitane, enfin chez vous grâce à la société truC, en effet ce verre a pied mi-oeuvre d'art, mi-verre à pied en peau de niglot sauvage te plaira mon cousin et trouvera une place dans ta camping entre la statue de la vierge Marie et le fusil à pompe du cousin Pedro.
             <br>
             <br>
             Il sera aussi efficace pour les conflits avec les CRS qui ne veulent pas te laisser rentrer dans la commune pour un terrain en leurs balancant dans les chicots! 
            </p>
   </div>
-      </section>
+
+  </section>
       <section class="s6">
         <div class="cuitrou">
 
@@ -92,5 +94,5 @@
         </div>
       
 </body>
-<script src="./testp.js"></script>
+<script src="./vaisselle.js"></script>
 </html>
