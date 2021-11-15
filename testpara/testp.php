@@ -72,14 +72,24 @@
 
         <img class="border" src="../photo projet 2/vaisselle/verre_piquant.jpg" alt="">
         <p class="pext">
-        <p>
-                Un incontournable de la communauté Gitane, enfin chez vous grâce à la société truC, en effet ce verre a pied mi-oeuvre d'art, mi-verre à pied en peau de niglot sauvage te plaira mon cousin et trouvera une place dans ta camping entre la statue de la vierge Marie et le fusil à pompe du cousin Pedro.
+              Un incontournable de la communauté Gitane, enfin chez vous grâce à la société truC, en effet ce verre a pied mi-oeuvre d'art, mi-verre à pied en peau de niglot sauvage te plaira mon cousin et trouvera une place dans ta camping entre la statue de la vierge Marie et le fusil à pompe du cousin Pedro.
             <br>
             <br>
             Il sera aussi efficace pour les conflits avec les CRS qui ne veulent pas te laisser rentrer dans la commune pour un terrain en leurs balancant dans les chicots! 
            </p>
   </div>
+      </section>
+      <section class="s6">
+        <div class="cuitrou">
 
+        <img class="border" src="../photo projet 2/vaisselle/cuillere_trouee.jpg" alt="">
+        <p class="cuitext">
+        Pour compléter cette série "Vaisselle" la société truC à encore frappé un grand coup dans le monde de la table, en effet avec cette cuillère intelligente fini les repas rasoirs une cuillère de soupe ou de semoule se transformera en carnage pour votre pantalon ce qui vous permettra de partir aux toilettes trés souvent finir votre partie de Candy Crush où allez voir la chaine Youtube de Gatssi sans vous préoccuper de votre "date"(comme disent les jeunes) et cela autant de fois que vous le désirer!
+                <br>
+                <br>
+                Attention toute fois aux boissons très chaudes et autres sauce tomate ravageuse de textile .
+             </p>
+        </div>
       
 </body>
 <script src="./testp.js"></script>

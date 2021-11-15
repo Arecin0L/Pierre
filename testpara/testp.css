@@ -116,13 +116,13 @@
     z-index: 4;
   }
 
-.fourch, .tassbiz, .selpoa, .verpik{
+.fourch, .tassbiz, .selpoa, .verpik, .cuitrou{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.fourchtext, .biztext, .poitext, .pext{
+.fourchtext, .biztext, .poitext, .pext, .cuitext{
   font-size: 25px;
 
 }
@@ -145,7 +145,10 @@
     background-color: #02486b;
     z-index: 1;
   }
-  
+  .layout .s6{
+    background-color:#02486b;
+    z-index: 2; 
+  }
   /*** RESPONSIVE ***/
   
   /* MOBILE */
