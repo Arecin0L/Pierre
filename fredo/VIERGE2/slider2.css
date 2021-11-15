@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  margin: 0;
+
+  background: hsla(9, 58%, 47%, 1);
+
+  background: linear-gradient(
+    225deg,
+    hsla(9, 58%, 47%, 1) 0%,
+    hsla(215, 76%, 41%, 1) 100%
+  );
+
+  font-family: "Muli", sans-serif;
+}
+
+.slider {
+  display: flex;
+
+  width: 100%;
+  padding: 0 20px;
+}
+
+.slider__slide {
+  position: relative;
+
+  flex: 1;
+
+  height: 80vh;
+  margin: 10px;
+}
+
+.slide {
+  overflow: hidden;
+
+  cursor: pointer;
+  transition: all 1s ease-out;
+
+  opacity: 0.5;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px #111;
+}
+
+.slide__image {
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.5s ease-out;
+
+  object-fit: cover;
+}
+
+.slide__caption {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+
+  margin: 0;
+  padding: 5px 10px;
+
+  opacity: 0;
+  border-radius: 5px;
+  background: hsla(9, 58%, 47%, 1);
+
+  background: linear-gradient(
+    225deg,
+    hsla(9, 58%, 47%, 1) 0%,
+    hsla(215, 76%, 41%, 1) 100%
+  );
+  box-shadow: 5px 5px 10px #111;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slide__caption_visuall-hidden {
+  position: absolute;
+
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+}
+
+.slide__link {
+  color: #0fc315;
+}
+
+.slide_active {
+  flex: 10;
+
+  opacity: 1;
+}
+
+.slide_active .slide__caption {
+  transition: opacity 0.3s ease-in 0.4s;
+
+  opacity: 0.7;
+}
+
+.slide_active .slide__caption:hover {
+  opacity: 1;
+}
