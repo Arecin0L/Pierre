@@ -110,22 +110,39 @@
     z-index: 5;
   }
   
+
   .layout .s2 {
     background-color: #02486b;
     z-index: 4;
   }
+
+.fourch, .tassbiz, .selpoa, .verpik{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fourchtext, .biztext, .poitext, .pext{
+  font-size: 25px;
+
+}
+.border{
+  border-radius: 5%;
+}
   
   .layout .s3 {
-    background-color: #171716;
+    background-color: #02486b;
     z-index: 3;
   }
   
+  
+ 
   .layout .s4 {
-    background-color: #154621;
+    background-color:#02486b;
     z-index: 2;
   }
   .layout .s5 {
-    background-color: #b47e95;
+    background-color: #02486b;
     z-index: 1;
   }
   
