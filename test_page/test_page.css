@@ -5,7 +5,7 @@ html{
     z-index: 1;
 }
 .kriss {
-    position: fixed;
+    position: absolute;
     top: 38%;
     left: 50%;
     width: 17vw;
@@ -22,7 +22,7 @@ html{
    
    .kriss:before {
     content: '';
-    position: fixed;
+    position: absolute;
     bottom: 6vh;
     left: 0;
     height: 4px;
@@ -34,7 +34,7 @@ html{
    
    .kriss:after {
     content: '';
-    position: fixed;
+    position: absolute;
     top: 6vh;
     left: 0;
     height: 4px;
