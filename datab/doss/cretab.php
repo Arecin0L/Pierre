@@ -8,12 +8,14 @@ $pass = '';
 try{
     $pdo = new PDO("mysql:host=$serv", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
     $req = "CREATE DATABASE truc";
     $pdo->exec($req);
 
     $creatable = "use truc";
     $pdo->exec($creatable);
-    $req = "CREATE TABLE shop(
+
+    $reqct = "CREATE TABLE shopp(
         Id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(30) NOT NULL,
         desc TEXT NOT NULL,
@@ -21,13 +23,21 @@ try{
         quantity INT NOT NULL)";
     $pdo->exec($req);
 
-        $req = $pdo->prepare("INSERT INTO shop (Id, name, desc, price, quantity) VALUES (:name, :desc, :price, quantity, NOW())");
-        $req->bindParam(':name', $n);
-        $req->bindParam(':desc', $d);
-        $req->bindParam(':price', $p);
-        $req->bindParam(':quantity', $q);
+        $reqct = $pdo->prepare("INSERT INTO shopp (Id, name, desc, price, quantity) VALUES (:name, :desc, :price, quantity, NOW())");
+        $reqct->bindParam(':name', $n);
+        $reqct->bindParam(':desc', $d);
+        $reqct->bindParam(':price', $p);
+        $reqct->bindParam(':quantity', $q);
 
-        $na = ''
+        $n = 'Fourchaine';
+        $d = 'Pas besoin de mots, cette image parle d\'elle même, ce chef d\'oeuvre sera idéal pour tout amateur de gastronomie acrobatique.
+        Un seul mot me vient à l\'esprit BONNE CHANCE aux amateurs de petits pois ou tout autres fans de riz!! une exclusivitée de l\'entreprise truC.';
+
+        $p = '15.99';
+        $q = '2';
 }
-
+catch(PDOException $e){
+    echo "Erreur : " . $e->getMessage();
+}
+$pdo = null;
 ?>
