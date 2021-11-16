@@ -14,8 +14,8 @@
   <div class="section-stick">
       <div class="stick active"></div>
     </div>
-    <section class="s1">
-      <img src="../photopr2/outillage/Porsche_911_Turbo_(vue_profil_avant).webp" alt="">
+    <section id="out" class="s1">
+      
       <div class="home">
   
     <div class="kriss">

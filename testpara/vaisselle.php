@@ -14,8 +14,8 @@
     <div class="section-stick">
       <div class="stick active"></div>
     </div>
-    <section class="s1">
-      <img src="./cyberpunk-rtx-3p.jpg" alt="">
+    <section id="vaiss" class="s1">
+      
       <div class="home">
         
          <div class="kriss">

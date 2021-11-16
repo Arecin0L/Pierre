@@ -103,13 +103,19 @@
   }
   
   .para .s1 {
-    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     transform: translateY(0);
     z-index: 1000;
   }
-  
+  #vaiss{
+    background-image: url(./cyberpunk-rtx-3p.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #out{
+    background-image: url(../photopr2/outillage/Porsche_911_Turbo_\(vue_profil_avant\).webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
   .para .s2 {
     background-color: #02486b;
