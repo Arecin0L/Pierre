@@ -17,7 +17,7 @@ try{
 
     $reqct = "CREATE TABLE shopp(
         Id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        name VARCHAR(30) NOT NULL,
+        name TEXT NOT NULL,
         desc TEXT NOT NULL,
         price DECIMAL 0.00 NOT NULL,
         quantity INT NOT NULL)";
