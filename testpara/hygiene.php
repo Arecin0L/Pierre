@@ -58,7 +58,7 @@
           <section class="s4 genial">
              <div class="pic3">
 
-                <img class="border" src="../photopr2/hygiene/double_toilette.jpg" alt=""
+                <img class="border" src="../photopr2/hygiene/double_toilette.jpg" alt="">
               <p class="text3">Le temps du popo solo est révolu, bienvenu dans le 21ème siècle grâce à notre "DOUBLE POOP" en effet cette innovation est unique au monde et uniquement sur le site de truC. Donc terminé les interminables attentes prolongées alors qu' "Obama veut sortir de la Maison Blanche". Le plus de ce modèle emblématique est que cela ne deviendra plus un tabou, et à vous les concours de toutes sorte (taille,poids,aspect et odeur) d'autant plus que vous pourrez vous faire encouragez
                   <br>
                   <br>
