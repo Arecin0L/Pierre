@@ -80,7 +80,7 @@
             <br>
             Il sera aussi efficace pour les conflits avec les CRS qui ne veulent pas te laisser rentrer dans la commune pour un terrain en leurs balancant dans les chicots! 
            </p>
-  </div>
+          </div>
 
   </section>
       <section class="s6 bien">

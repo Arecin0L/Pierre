@@ -121,6 +121,11 @@
     background-repeat: no-repeat;
     background-attachment: fixed; 
  }
+ #hygi{
+   background-image: url(../photopr2/hygiene/Cyberpunk2077_Smoke_and_mirrors_RGB-EN.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
   .para .s2 {
     
     z-index: 5;
@@ -157,14 +162,17 @@ input{
   background: rgb(183, 99, 204);
   outline: none;
 }
-.cool{
-  background-color: grey;
+.cool{            /*couleur background outillage*/
+  background-color:grey;
 }
-.bien{
-  background-color: hotpink;
+.bien{            /*couleur background vaisselle*/
+  background-color:#02486b;
 }
-mots{
+.mots{
   background-color: khaki;
+}
+.genial{
+  background-color:#02486b;
 }
 .para .s3 {
   background-color: #02486b;
