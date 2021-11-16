@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./all.css">
-    <title>Document</title>
+    <title>Vaisselle</title>
 </head>
 <body>
 
@@ -35,7 +35,7 @@
       </div>
     </section>
 
-    <section class="s2">
+    <section class="s2 bien">
       <div class="pic1">
         <img class="border"src="../photopr2/vaisselle/fourchaine.jpg" alt="">
         <p class="text1">Pas besoin de mots, cette image parle d'elle même, ce chef d'oeuvre sera idéal pour tout amateur de gastronomie acrobatique.
@@ -47,7 +47,7 @@
               <button class="stylebtn">Acheter</button>
       </div>
     </section>
-    <section class="s3">
+    <section class="s3 bien">
       <div class="pic2">
 
         <img class="border" src="../photopr2/vaisselle/tasse_en_bison.jpg" alt="">
@@ -59,7 +59,7 @@
       </div>
     </section>
 
-    <section class="s4">
+    <section class="s4 bien">
       <div class="pic3">
 
       <img class="border" src="../photopr2/vaisselle/saliere_et_poivriere.jpg"alt="">
@@ -70,7 +70,7 @@
                 </p>
       </div>  
       </section>
-      <section class="s5">
+      <section class="s5 bien">
         <div class="pic4">
 
         <img class="border" src="../photopr2/vaisselle/verre_piquant.jpg" alt="">
@@ -83,7 +83,7 @@
   </div>
 
   </section>
-      <section class="s6">
+      <section class="s6 bien">
         <div class="pic5">
 
         <img class="border" src="../photopr2/vaisselle/cuillere_trouee.jpg" alt="">
