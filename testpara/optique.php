@@ -50,6 +50,7 @@
               <button class="stylebtn">Acheter</button>
       </div>
     </section>
+
     <section id="mots" class="s3">
       <div class="pic2">
 
@@ -61,7 +62,7 @@
       </div>
     </section>
 
-    <section class="s4 mots">
+    <section id="mots" class="s4">
       <div class="pic3">
 
       <img class="border" src="../photopr2/optique/lunette_salami.jpg"alt="">

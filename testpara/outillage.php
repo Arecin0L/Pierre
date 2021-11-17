@@ -39,7 +39,7 @@
           <rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" /></svg>
       </div>
     </section>
-    <section class="s2 cool">
+    <section id="cool" class="s2">
       <div class="pic1">
         <img class="border" src="../photopr2/outillage/poignee_gonflable.jpg" alt="">
 
@@ -52,7 +52,7 @@
         </p>
       </div>
     </section>
-    <section class="s3 cool">
+    <section id="cool" class="s3">
       <div class="pic2">
 
         <img class="border" src="../photopr2/outillage/tournevide.jpg">
@@ -68,10 +68,10 @@
       </div>
     </section>
 
-    <section class="s4 cool">
+    <section id="cool" class="s4">
       <div class="pic3">
 
-        <img class="border" src="../photopr2/outillage/compas_qui_fait_des_carres.jpg">
+        <img class="comp" src="../photopr2/outillage/compas_qui_fait_des_carres.jpg">
         <p class="text3">
           Léonard de Vinci lui même, se servait également de cet instrument et seul l'entreprise truC vous le propose en
           exclusivité mondiale le Compas carré. En effet le Compas carré réglera beaucoup de conflits entre les
@@ -86,15 +86,13 @@
 
       </div>
     </section>
-    <section class="s5 cool">
+    <section id="cool" class="s5">
       <div class="pic4">
         <img class="border" src="../photopr2/outillage/marteau-electrique.jpg" alt="">
         <p class="text4">
-          le monde à une fois dans sa vie taper au marteau pour faire moulte travaux de ménage domestique, mais voilà
+          Tout le monde à une fois dans sa vie taper au marteau pour faire moulte travaux de ménage domestique, mais voilà
           votre poigné de quarantenaire, vous fait défaut, nous avons la solution se marteau électrique vous rendra
           votre "punch" d'entant.
-          <br>
-          <br>
           Claude Francois (Professionnel de chez ENGIE) lui même s'en servi pour changer une ampoule et depuis se jour
           il n'a plus jamais eté embêter adieu les problèmes grâce au Marteau Elec
         </p>
@@ -103,16 +101,14 @@
 
     </section>
 
-  <section class="s6 cool">
+  <section id="cool" class="s6">
     <div class="pic5">
       <img class="border" src="../photopr2/outillage/robinorange.jpg" alt="">
       <div class="text5">
 
         Encore un produit exclusif dans la boutique , adopter par la chaine GULLI en personne en association avec Leroy
         Merlin pour inciter les jeunes à boire du jus d'orange car oui cinq kilos de fruits et légumes par jour c'est
-        bon pour ton corps jeune malandrin
-        <br>
-        <br>
+        bon pour ton corps jeune malandrin.
         Livré avec son filtre anti pépin et anticalcaire ,s'adapte à d'autres genre de fruit et légumes et pourquoi
         innové en buvant une bonne raclette? les possibilités sont infini.
         </p>

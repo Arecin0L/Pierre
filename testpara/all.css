@@ -1,195 +1,248 @@
 :root {
-    --color-white: #fff;
-    --time-animation: 0.6s;
-  }
-  
-  @keyframes pulse {
-    0% {
-      transform: translateY(0px);
-    }
-    50% {
-      transform: translateY(25px);
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
-  
-  html {
-    scrollbar-width: none;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    overflow: hidden scroll;
-    -ms-overflow-style: none;
-  }
-  
-  body::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .para {
-    width: 100%;
-    height: calc(100vh * 3);
-    position: relative;
-  }
-  
-  .para .section-stick {
-    margin: auto;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 100;
-  }
-  
-  .para .section-stick .stick,
-  .para .section-stick .active {
-    width: 13px;
-    height: 62px;
-    border: none;
-    border-radius: 9px;
-  }
-  
-  .para .section-stick .stick {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.4);
-    transition: all var(--time-animation) ease-in-out;
-  }
-  
-  .para .section-stick .active {
-    position: absolute;
-    background-color: var(--color-white);
-    box-shadow: 0px 0px 12px 1px var(--color-white);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-  }
-  
-  .para section {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--color-white);
-    font-size: 80px;
-    font-weight: 600;
-    transform: translateY(100vh);
-    transition: all var(--time-animation) ease-in-out;
-    z-index: 0;
-  }
-  
-  .para section .home {
-    display: flex;
-    flex-direction: column;
-    row-gap: 45px;
-    align-items: center;
-  }
-  
-  .para section .home svg {
-    animation: pulse 1.4s linear infinite normal;
-  }
-  
-  .para .s1 {
-    transform: translateY(0);
-    z-index: 1000;
-  }
-  #vaiss{
-    background-image: url(../photopr2/vaisselle/cyberpunk-rtx-3p.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  #out{
-    background-image: url(../photopr2/outillage/Porsche_911_Turbo_\(vue_profil_avant\).webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-  }
- #opti{
-  background-image: url(../photopr2/optique/videogame-cyberpunk-2077-yorha-a2-cosplay-girl-papel-de-parede-3840x1200_62.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
- }
- #hygi{
-   background-image: url(../photopr2/hygiene/Cyberpunk2077_Smoke_and_mirrors_RGB-EN.png);
-   background-repeat: no-repeat;
-   background-attachment: fixed;
- }
-  .para .s2 {
-    
-    z-index: 5;
+  --color-white: #fff;
+  --time-animation: 0.6s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(0px);
   }
 
-.pic1, .pic2, .pic3, .pic4, .pic5{
+  50% {
+    transform: translateY(25px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden scroll;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.para {
+  width: 100%;
+  height: calc(100vh * 3);
+  position: relative;
+}
+
+.para .section-stick {
+  margin: auto;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+
+.para .section-stick .stick,
+.para .section-stick .active {
+  width: 13px;
+  height: 62px;
+  border: none;
+  border-radius: 9px;
+}
+
+.para .section-stick .stick {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: all var(--time-animation) ease-in-out;
+}
+
+.para .section-stick .active {
+  position: absolute;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 12px 1px var(--color-white);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.para section {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  text-align: center;
+  color: var(--color-white);
+  font-size: 80px;
+  font-weight: 600;
+  transform: translateY(100vh);
+  transition: all var(--time-animation) ease-in-out;
+  z-index: 0;
+}
+
+.para section .home {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
   align-items: center;
 }
-.text1, .text2, .text3, .text3, .text4, .text5{
-  font-size: 25px;
+
+.para section .home svg {
+  animation: pulse 1.4s linear infinite normal;
 }
-.border{
+
+#vaiss {
+  background-image: url(../photopr2/vaisselle/cyberpunk-rtx-3p.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+#out {
+  background-image: url(../photopr2/outillage/Porsche_911_Turbo_\(vue_profil_avant\).webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+#opti {
+  background-image: url(../photopr2/optique/cybopti.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+#hygi {
+  background-image: url(../photopr2/hygiene/Cyberpunk2077_Smoke_and_mirrors_RGB-EN.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 105vw;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+}
+
+.text1,
+.text2,
+.text3,
+.text3,
+.text4,
+.text5 {
+  font-size: 25px;
+  width: 30vw;
+}
+
+.border {
+  border-radius: 5%;
+  width: 40vw;
+  height: auto;
+}
+.trouillère{
   border-radius: 5%;
   width: 25vw;
   height: auto;
 }
-.textbtn{
+.comp{
+  border-radius: 5%;
+  width: 25vw;
+  height: auto;
+}
+
+.textbtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.stylebtn{
-  color: white;
-  width: 7vw;
-  height: 4vh;
-  border-radius: 5%;
-}
-input{
+
+input {
   border: none;
-  background: rgb(183, 99, 204);
+  background: rgb(131, 124, 133);
   outline: none;
 }
-.cool{            /*couleur background outillage*/
-  background-color:grey;
+
+input .stylebtn {
+  color: white;
+  width: 10vw;
+  height: 7vh;
+  border-radius: 15%;
 }
-.bien{            /*couleur background vaisselle*/
-  background-color:#02486b;
+
+#cool {
+  /*couleur background outillage*/
+  background-color: grey;
 }
-.mots{
-  background-color: khaki;
+
+#bien {
+  /*couleur background vaisselle*/
+  background-color: #584e33;
 }
-.genial{
-  background-color:#02486b;
+/* couleur bg optique*/
+#mots {
+  background-color: rgb(85, 83, 63);
 }
-.para .s3 {
+/*couleur hygiene*/
+#genial {
   background-color: #02486b;
+}
+
+.para .s1 {
+  transform: translateY(0);
+  z-index: 1000;
+}
+
+.para .s2 {
+  z-index: 6;
+}
+
+.para .s3 {
+  z-index: 5;
+}
+
+.para .s4 {
   z-index: 4;
 }
-.para .s4 {
-  background-color:#02486b;
+
+.para .s5 {
   z-index: 3;
 }
-.para .s5 {
-  background-color: #02486b;
+
+.para .s6 {
   z-index: 2;
 }
-.para .s6{
-  background-color:#02486b;
-  z-index: 1; 
+.dispo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
 }
+.title{
+  font-size: 70px;
+}
+
 /*** RESPONSIVE ***/
 
 /* MOBILE */
@@ -205,92 +258,94 @@ input{
     bottom: 20px;
     transform: scale(0.7);
   }
-  
-    .para section {
-      font-size: 40px;
-    }
+
+  .para section {
+    font-size: 40px;
   }
-  
+}
 
 
-  .kriss {
-    position: absolute;
-    top: 23%;
-    left: 35%;
-    width: 20vw;
-    height: 15vh;
-    transform: translate(-50%, -50%) skewY(-5deg);
-    border: 4px solid #ffffff;
-    padding: 20px 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177), 
-      inset 0 0 10px rgb(145, 19, 177), inset 0 0 10px rgb(145, 19, 177);
-    animation: animate 1s linear infinite;
-   }
-   
-   .kriss:before {
-    content: '';
-    position: absolute;
-    bottom: 5vh;
-    left: 0;
-    height: 4px;
-    background: #ffffff;
-    width: 100%;
-    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
-    z-index: -1;
-   }
-   
-   .kriss:after {
-    content: '';
-    position: absolute;
-    top: 6vh;
-    left: 0;
-    height: 4px;
-    background: #ffffff;
-    width: 100%;
-    box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
-    z-index: -1;
-   }
-   
-   .loni {
-    font-size: 0.60em;
-    color: #ffffff;
-    text-shadow: 0 0 10px rgb(145, 19, 177), 0 0 20px rgb(145, 19, 177), 0 0 80px rgb(145, 19, 177), 0 0 120px ;
-   }
-   
-   .loni .fredo {
-    animation: animate .5s linear infinite;
-   }
-   
-   .loni .fredo:nth-child(1) {
-    animation-delay: .25s;
-   }
-   
-   .loni .fredo:nth-child(2) {
-    animation-delay: .2s;
-   }
-   
-   .loni .fredo:nth-child(3) {
-    animation-delay: .35s;
-   }
-   
-   
-   @keyframes animate {
-    0% {
+
+.kriss {
+  position: absolute;
+  top: 23%;
+  left: 35%;
+  width: 20vw;
+  height: 15vh;
+  transform: translate(-50%, -50%) skewY(-5deg);
+  border: 4px solid #ffffff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177),
+    inset 0 0 10px rgb(145, 19, 177), inset 0 0 10px rgb(145, 19, 177);
+  animation: animate 1s linear infinite;
+}
+
+.kriss:before {
+  content: '';
+  position: absolute;
+  bottom: 5vh;
+  left: 0;
+  height: 4px;
+  background: #ffffff;
+  width: 100%;
+  box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
+  z-index: -1;
+}
+
+.kriss:after {
+  content: '';
+  position: absolute;
+  top: 6vh;
+  left: 0;
+  height: 4px;
+  background: #ffffff;
+  width: 100%;
+  box-shadow: 0 0 10px rgb(145, 19, 177), 0 0 10px rgb(145, 19, 177);
+  z-index: -1;
+}
+
+.loni {
+  font-size: 0.60em;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgb(145, 19, 177), 0 0 20px rgb(145, 19, 177), 0 0 80px rgb(145, 19, 177), 0 0 120px;
+}
+
+.loni .fredo {
+  animation: animate .5s linear infinite;
+}
+
+.loni .fredo:nth-child(1) {
+  animation-delay: .25s;
+}
+
+.loni .fredo:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.loni .fredo:nth-child(3) {
+  animation-delay: .35s;
+}
+
+
+@keyframes animate {
+  0% {
     opacity: 1;
-    }
-    30% {
+  }
+
+  30% {
     opacity: 1;
-    }
-    40% {
+  }
+
+  40% {
     opacity: 0.5;
-    }
-    50% {
-    opacity: 1;
-    }
-    100% {
-    opacity: 1;
-    }
   }
- 
-  
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

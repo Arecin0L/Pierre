@@ -33,7 +33,7 @@
       </div>
       </section>
 
-      <section class="s2 genial"> 
+      <section id="genial" class="s2"> 
               <div class="pic1">
                  <img class="border"src="../photopr2/hygiene/arrache_q.jpg" alt="">
                   <p class="text1">L'ARRACHE Q en inox véritable arrive en france, il sera pour vous un allié dans de longues et interminables réunions aux toilettes sur des projets merdiques. En effet sa technologie "to tear out" récurera les plus récalcitrantes traces de votre foufouyon 
@@ -44,7 +44,8 @@
               <button class="stylebtn">Acheter</button>
               </div>
           </section>
-          <section class="s3 genial">
+
+          <section id="genial" class="s3">
               <div class="pic2">
                   
                   <img class="border" src="../photopr2/hygiene/brosse_sur_doigt.jpg" alt="">         
@@ -55,7 +56,8 @@
               </p>
           </div>
 </section>
-          <section class="s4 genial">
+
+          <section id="genial" class="s4">
              <div class="pic3">
 
                 <img class="border" src="../photopr2/hygiene/double_toilette.jpg" alt="">
@@ -66,7 +68,7 @@
                 </p>
           </div>
           </section>
-          <section class="s5 genial">
+          <section id="genial" class="s5">
             <div class="pic4"> 
                  
             <img class="border" src="../photopr2/hygiene/brosse_cote.jpg" alt="">
@@ -79,7 +81,7 @@
             </div>
 
           </section>
-          <section class="s6 genial">
+          <section id="genial" class="s6">
              <div class="pic5">
 
              <img class="border" src="../photopr2/hygiene/tige_bouchon.jpg" alt="">
