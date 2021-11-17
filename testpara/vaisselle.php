@@ -71,6 +71,7 @@
             En plus de ce modèle, un autre est aussi disponible sans avoir été nettoyé, donc à vous les goûts subtiles
             et délicats des cafards, puces et tout autres déjections selon l'endroit où les poils ont étaient prélevés.
           </p>
+          <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
     </section>
@@ -88,6 +89,7 @@
             IMPORTANT !! En présentant votre carte d'affiliation au régime de retraite cet ensemble vous reviendra à -10%
             avec le code promo "AssuranceObsèque"
           </p>
+          <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
     </section>
@@ -106,6 +108,7 @@
             Il sera aussi efficace pour les conflits avec les CRS qui ne veulent pas te laisser rentrer dans la commune
             pour un terrain en leurs balancant dans les chicots!
           </p>
+          <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
 

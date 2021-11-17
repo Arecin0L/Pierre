@@ -150,7 +150,7 @@ body::-webkit-scrollbar {
 .text3,
 .text4,
 .text5 {
-  font-size: 25px;
+  font-size: 20px;
   width: 30vw;
 }
 
@@ -183,11 +183,12 @@ input {
   outline: none;
 }
 
-input .stylebtn {
-  color: white;
+.stylebtn {
+  background: white;
   width: 10vw;
   height: 7vh;
-  border-radius: 15%;
+  border-radius: 15px;
+  font-size: 25px;
 }
 
 #cool {

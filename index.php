@@ -71,35 +71,35 @@
         <section>
             <div id="contentContainer" class="trans3d">
                 <article id="carouselContainer" class="trans3d">
-                    <figure id="item1" class="carouselItem trans3d"><img src="./photo projet 2/bien-être/poitong.jpg" style="width: 320px; height: 185px;" alt="">
+                    <figure id="item1" class="carouselItem trans3d"><img src="./photopr2/bien-être/poitong.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item2" class="carouselItem trans3d">
-                        <img src="./photo projet 2/high-tech/clavier_de_punaise.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/high-tech/clavier_de_punaise.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item3" class="carouselItem trans3d">
-                        <img src="./photo projet 2/hygiene/tige_bouchon.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/hygiene/tige_bouchon.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item4" class="carouselItem trans3d">
-                        <img src="./photo projet 2/jardinage/w_arrosoir.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/jardinage/w_arrosoir.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item5" class="carouselItem trans3d">
-                        <img src="./photo projet 2/loisirs/w_raquette.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/loisirs/w_raquette.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item6" class="carouselItem trans3d">
-                        <img src="./photo projet 2/optique/w_lunettecyclope.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/optique/w_lunettecyclope.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item7" class="carouselItem trans3d">
-                        <img src="./photo projet 2/outillage/compas_qui_fait_des_carres.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/outillage/compas_qui_fait_des_carres.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d"></div>
                     </figure>
                     <figure id="item7" class="carouselItem trans3d">
-                        <img src="./photo projet 2/vaisselle/fourchaine.jpg" style="width: 320px; height: 185px;" alt="">
+                        <img src="./photopr2/vaisselle/fourchaine.jpg" style="width: 320px; height: 185px;" alt="">
                         <div class="carouselItemInner trans3d">
                         </div>
                     </figure>
