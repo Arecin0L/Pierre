@@ -147,7 +147,6 @@ body::-webkit-scrollbar {
 .text1,
 .text2,
 .text3,
-.text3,
 .text4,
 .text5 {
   font-size: 20px;
@@ -236,9 +235,9 @@ input {
 .dispo{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  height: 5vh;
+  height: 3vh;
 }
 .title{
   font-size: 70px;

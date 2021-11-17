@@ -42,7 +42,7 @@
                             <a href="./index.html" class="changelang"><img class="flag" src="./logo_drapeaux/france.png"  width="30px" height="30px">Francais</a>
                         </div>
                     </div>
-                    <a class="ap" href="./fredo/PARALLAX/VIERGE/TEAM/team.html">A propos</a>
+                    <a class="ap" href="./fredo/PARALLAX/TEAM/team.html">A propos</a>
                 </div>
             </div>
         </header>

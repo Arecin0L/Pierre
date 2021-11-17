@@ -1,3 +1,6 @@
+<?php
+require '../datab/stock/function.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,13 +49,22 @@
       <div class="pic1">
         <img class="border" src="../photopr2/vaisselle/fourchaine.jpg" alt="">
         <div class="dispo">
-          <h2 class="title">Fourchaine</h2>
-          <p class="text1">Pas besoin de mots, cette image parle d'elle même. Ce chef d'oeuvre sera idéal pour tous les 
-            amateurs de gastronomie acrobatique.
+          <?php
+          $total_products = $pdo->query('SELECT * FROM vaisselle WHERE id = 1');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
 
-            Un seul mot me vient à l'esprit : "BONNE CHANCE" aux amateurs de petits pois ou tout autre fan de riz!!
-            Une exclusivitée de l'entreprise truC.
-          </p>
+          <?php
+          endwhile;
+          ?>
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
@@ -63,14 +75,23 @@
 
         <img class="border" src="../photopr2/vaisselle/tasse_en_bison.jpg" alt="">
         <div class="dispo">
-          <h2 class="title">Tasse Bizon</h2>
-          <p class="text2"> Notre tasse en véritable poils de bison de Croatie du Nord chatouillera votre palais de bon
-            matin, en effet cette tasse équipée de sa soucoupe et de sa cuillère, vous feront économiser un maximum
-            d'eau car le poil de bison est inlavable, ainsi vous retrouverez les saveurs de vos thés, soupes, ou tout
-            autres aliments consommés il y a deux ans auparavant, ce qui donnera un goût unique à votre boisson.
-            En plus de ce modèle, un autre est aussi disponible sans avoir été nettoyé, donc à vous les goûts subtiles
-            et délicats des cafards, puces et tout autres déjections selon l'endroit où les poils ont étaient prélevés.
-          </p>
+        <div class="dispo">
+          <?php
+          $total_products = $pdo->query('SELECT * FROM vaisselle WHERE id = 2');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
@@ -81,14 +102,23 @@
 
         <img class="border" src="../photopr2/vaisselle/saliere_et_poivriere.jpg" alt="">
         <div class="dispo">
-          <h2 class="title">Sablioivre</h2>
-          <p class="text3">Encore une nouveautée sur notre site, cet ensemble de salière et de poivrière pour retraité qui
-            ont le temps de manger le dimanche midi après Jean-luc Reichmann, en effet cet objet technique évite à toutes
-            les personnes ayant cette maladie qui ravage les neuronnes j'ai nommé Parkinson, de retapisser la salle à
-            manger complète et de blessé les membres de leur famille par projection de sel ou de poivre dans les yeux !
-            IMPORTANT !! En présentant votre carte d'affiliation au régime de retraite cet ensemble vous reviendra à -10%
-            avec le code promo "AssuranceObsèque"
-          </p>
+        <div class="dispo">
+          <?php
+          $total_products = $pdo->query('SELECT * FROM vaisselle WHERE id = 3');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
@@ -98,16 +128,22 @@
 
         <img class="border" src="../photopr2/vaisselle/verre_piquant.jpg" alt="">
         <div class="dispo">
-          <h2 class="title">Verre Niglot</h2>
-          <p class="text4">
-            Un incontournable de la communauté Gitane, enfin chez vous grâce à la société truC, en effet ce verre a pied
-            mi-oeuvre d'art, mi-verre à pied en peau de niglot sauvage te plaira mon cousin et trouvera une place dans ta
-            camping entre la statue de la vierge Marie et le fusil à pompe du cousin Pedro.
-            <br>
-            <br>
-            Il sera aussi efficace pour les conflits avec les CRS qui ne veulent pas te laisser rentrer dans la commune
-            pour un terrain en leurs balancant dans les chicots!
-          </p>
+        <?php
+          $total_products = $pdo->query('SELECT * FROM vaisselle WHERE id = 4');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
@@ -118,15 +154,22 @@
 
         <img class="trouillère" src="../photopr2/vaisselle/cuillere_trouee.jpg" alt="">
         <div class="dispo">
-          <h2 class="title">Trouillère</h2>
-          <p class="text5">
-            Pour compléter cette série "Vaisselle" la société truC à encore frappé un grand coup dans le monde de la
-            table, en effet avec cette cuillère intelligente fini les repas rasoirs une cuillère de soupe ou de semoule se
-            transformera en carnage pour votre pantalon ce qui vous permettra de partir aux toilettes trés souvent finir
-            votre partie de Candy Crush où allez voir la chaine Youtube de Gatssi sans vous préoccuper de votre
-            "date"(comme disent les jeunes) et cela autant de fois que vous le désirer!
-            Attention toute fois aux boissons très chaudes et autres sauce tomate ravageuse de textile .
-          </p>
+        <?php
+          $total_products = $pdo->query('SELECT * FROM vaisselle WHERE id = 5');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>

@@ -1,3 +1,6 @@
+<?php
+require '../datab/stock/function.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,17 +49,22 @@
         <div class="pic1">
           <img class="border" src="../photopr2/optique/w_lunettecyclope.jpg" alt="">
           <div class="dispo">
-            <h2 class="title">Cyclounette</h2>
-            <p class="text1"> "TOP AFFAIRE" chez truC, Pour l'achat d'une paire d'une lunette une blague offerte
-              uniquement chez truC (c'est bébé cyclope en pleine discussion avec papa cyclope :
-              - Dis, papa, pourquoi on n'a qu'un oeil ?
-              - Oh, laisse-moi j'ai pas l'temps.
-              Bébé cyclope:
-              - Dis papa, POURQUOI on n'a qu'un oeil, dis ?
-              - Je t'ai dis que j'avais pas l'temps ?
-              - Dis papa, pourquoi....
-              - OH ARRETE DE ME CASSER LA COUILLE !!! )
-            </p>
+            <?php
+          $total_products = $pdo->query('SELECT * FROM optique WHERE id = 1');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
           </div>
@@ -68,13 +76,22 @@
 
           <img class="border" src="../photopr2/optique/lunettes_de_soleil_pour_chien.jpg" alt="">
           <div class="dispo">
-            <h2 class="title">Chinette</h2>
-            <p class="text2">Vous avez un chien? il veut des lunettes? Vous ne trouvé pas votre bonheur chez Kriss ou
-              Affreuxlook? Rien de plus simple contactez nous!
-              <br>
-              <br>
-              Disponible en différents coloris dont un noir opaque du plus bel effet, votre chien se prendra pour une
-              personne aveugle car oui le changement c'est maintenant et c'est rigolo!! </p>
+          <?php
+          $total_products = $pdo->query('SELECT * FROM optique WHERE id = 2');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
           </div>
@@ -86,16 +103,22 @@
 
           <img class="border" src="../photopr2/optique/lunette_salami.jpg" alt="">
           <div class="dispo">
-            <h2 class="title">Lunetamis</h2>
-            <p class="text3">
-              Nouveauté sur notre site, (pour les BG) comme disent les jeunes, nos Lunétamis sont disponible, mi-paires de
-              lunettes mi-salamis elles ne manquerons pas de protéger vos yeux du soleil éclatant d'Etaples sur mer un
-              mois d'octobre de nuit
-              <br>
-              <br>
-              Elles seront également indispensables si vous croiser un amis (le sang de la veine ) comme disent les jeunes
-              pour grailler un p'tit bout sur le banc de ce si charmant port, du Nord-pas-de-Calais
-            </p>
+          <?php
+          $total_products = $pdo->query('SELECT * FROM optique WHERE id = 3');
+          
+          while ($data = $total_products->fetch(PDO::FETCH_OBJ)):
+          ?>
+          <h2 class="title">
+          <?= $data->name ?>
+          </h2>
+          <div class="text1">
+            <p><?= $data->desc ?></p>
+            <p><?= $data->price ?></p>
+          </div>
+
+          <?php
+          endwhile;
+          ?>
           
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
           </div>
