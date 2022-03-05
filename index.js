@@ -84,15 +84,14 @@ $(document).ready(function(){
         backgroundColor: "transparent",
         right: "14vw",
     })
-})
+    })
 $(".lg").click(function closeLang(){
     $('#lang').css({
         width: "0",
         transform: "translateX(100vh)",
         backgroundColor: "transparent",
     })
-})
-
-
+    })
 });
+
 
