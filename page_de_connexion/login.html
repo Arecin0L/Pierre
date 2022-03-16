@@ -8,19 +8,10 @@
 </head>
 <body>
     <form action="./login.php" method="POST">
-        <table align="center" border="0">
-            <tr>
-              <td>Login :</td>
-              <td><input type="text" name="login" maxlength="250"></td>
-            </tr>
-            <tr>
-              <td>Password</td>
-              <td><input type="password"name="pass" maxlength="10"></td>
-            </tr>
-            <tr>
-              <td colspan="2" align="center"><input type="submit" value="log in"></td>
-            </tr>
-          </table>
+        <input type="text" placeholder="Pseudo" name="pseudo" required pattern="^[A-Za-zÀ-ÿ0-9'-]+$">
+        <input type="email" placeholder="Email" name="email" required pattern="^[A-Za-zÀ-ÿ0-9'_.-]+@{1}[A-Za-z0-9]+.[A-Za-z]{2,}$">
+        <input type="password" placeholder="Mot de passe" name="mdp" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?$/\=*.-]).{6,18}$">
+        <input type="password" placeholder="Confirmer mdp" name="mdpconf" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?$/\=*.-]).{6,18}$">
     </form>
 </body>
 </html>
