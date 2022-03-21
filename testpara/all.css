@@ -149,6 +149,9 @@ body::-webkit-scrollbar {
   background-attachment: fixed;
   background-size: 105vw;
 }
+#hite{
+  background-image: url(../photopr2/high-tech/);
+}
 .pic1,
 .pic2,
 .pic3,
