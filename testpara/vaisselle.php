@@ -173,7 +173,7 @@ require '../datab/stock/function.php';
           <input type="submit" value="Acheter" name="buy" class="stylebtn">
         </div>
       </div>
-
+    </section>
 </body>
 <script src="./all.js"></script>
 

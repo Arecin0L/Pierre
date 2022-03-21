@@ -131,7 +131,24 @@ body::-webkit-scrollbar {
   background-attachment: fixed;
   background-size: 105vw;
 }
-
+#jard{
+  background-image: url(../photopr2/jardinage/Pandora-fantasy-Avatar_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 105vw;
+}
+#biet{
+  background-image: url(../photopr2/bien-être/wallhaven-md85ok.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 105vw;
+}
+#lois{
+  background-image: url(../photopr2/loisirs/thumb-1920-1121327.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 105vw;
+}
 .pic1,
 .pic2,
 .pic3,
@@ -207,7 +224,18 @@ input {
 #genial {
   background-color: #02486b;
 }
-
+#wow{
+  background-color: royalblue;
+}
+#beau{
+  background-color: darkgrey;
+}
+#great{
+  background-color: darksalmon;
+}
+#ok{
+  background-color: lightskyblue;
+}
 .para .s1 {
   transform: translateY(0);
   z-index: 1000;
