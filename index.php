@@ -31,6 +31,7 @@
                                 class="fa fa-search"></i></a></button>
                 </div>
                 <div class="spal">
+                    <a href="./datab/deco.php" style="color: white; font-size:1.5em;margin-right:2vw;">Déconnexion</a>
                     <a class="si" href="./datab/login.php">Se connecter</a>
                     <a class="p" href="">Panier</a>
                     <div class="lg">

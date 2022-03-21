@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Connexion</title>
 </head>
 <body>
     <section class="design">
-        <form class="form" action="./login.php" method="POST">
+        <legend>Connexion</legend>
+        <form class="form" action="./log.php" method="POST">
             <input type="text" placeholder="Pseudo" name="pseudo" required pattern="^[A-Za-zÀ-ÿ0-9'-]+$">
-            <input type="password" placeholder="Mot de passe" name="mdp" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?$/\=*.-]).{6,18}$">
+
+            <input type="password" placeholder="Mot de passe" name="mdpasse" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?$/\=*.-]).{6,18}$">
+            
             <input class="envoie" type="submit" value="Envoyer">
             <a href="./inscription.php">
                 <p>Je veux m'inscrire !</p>

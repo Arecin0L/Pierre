@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscription</title>
 </head>
 <body>
     <section class="design">
-        <form class="form" action="./login.php" method="POST">
-            <input type="text" placeholder="Pseudo" name="pseudo" required pattern="^[A-Za-zÀ-ÿ0-9'-]+$">
-            <input type="email" placeholder="Email" name="email" required pattern="^[A-Za-zÀ-ÿ0-9'_.-]+@{1}[A-Za-z0-9]+.[A-Za-z]{2,}$">
-            <input type="password" placeholder="Mot de passe" name="mdp" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?$/\=*.-]).{6,18}$">
-            <input type="password" placeholder="Confirmer mdp" name="mdpconf" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[@!?$/\=*.-]).{6,18}$">
-            <input class="envoie" type="submit" value="Envoyer">
-            <a href="./login.php">
-                <p>Je veux me connecter !</p>
-            </a>
-        </form>
+    <legend>Inscription</legend>
+    <form class="form" action="./inscript.php" method="POST">
+
+        <input type="text" placeholder="Pseudo" name="pseudo" id="pseud" required pattern="^[A-Za-zÀ-ÿ0-9'-]+$" max="20">
+
+        <input type="password" placeholder="Mot de passe" name="mdp" id="motdpe" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!?'$@/\=*.-]).{4,20}$">
+
+        <input type="password" placeholder="Confirmer mdp" name="mdpconf" id="motdpec" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!?'$@/\=*.-]).{4,20}$">
+
+        <input type="email" placeholder="Email" name="email" id="email" required pattern="^[A-Za-z'_.-]+@{1}+[A-Za-z0-9]+\.[A-Za-z]{2,}$">
+
+        <input class="envoie" type="submit" value="Envoyer">
+        <a href="./login.php">
+            <p>Je veux me connecter !</p>
+        </a>
+    </form>
     </section>
 
     <style>
