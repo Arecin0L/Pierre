@@ -31,7 +31,7 @@
                                 class="fa fa-search"></i></a></button>
                 </div>
                 <div class="spal">
-                    <a class="si" href="./page_de_connexion/login.html">Se connecter</a>
+                    <a class="si" href="./datab/login.php">Se connecter</a>
                     <a class="p" href="">Panier</a>
                     <div class="lg">
                         <div class="lopen" href="">Langue</div>
