@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../fa/css/all.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./carousel.css">
-    <title>Document</title>
+    <title>truC</title>
 </head>
 
 <body>

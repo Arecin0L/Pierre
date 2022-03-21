@@ -2,7 +2,7 @@
 function token($length){
     $alph = "azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN0123456789";
     $token = substr(str_shuffle(str_repeat($alph, $length)),0, $length);
-    return $token;
+    return $token; //On crypte le mot de passe avec hash et un token 
 
 }
 
